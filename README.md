@@ -10,7 +10,7 @@ This project includes:
 * Efficient stock lookups with **in-memory LRU caching**
 * Consistent order processing using **leader-follower replication**
 * Crash resilience with **automatic failover and replica recovery**
-* Seamless deployment on **AWS cloud infrastructure** (refer [Evaluation.MD](docs/Evaluation.md) for deployment steps)
+* Seamless deployment on **AWS cloud infrastructure** (refer [Evaluation.md](docs/Evaluation.md) for deployment steps)
 ---
 
 ## 🧱 System Architecture
