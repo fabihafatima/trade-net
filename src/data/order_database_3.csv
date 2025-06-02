@@ -1,0 +1,7 @@
+transaction_id,stock_name,order_type,quantity
+1,NFLX,buy,8
+2,AMZN,sell,6
+3,GOOGL,buy,10
+4,NFLX,buy,10
+5,GOOGL,buy,31
+6,GOOGL,sell,1

@@ -1,0 +1,84 @@
+syntax = "proto3";
+
+service OrderService {
+  rpc PlaceOrder (OrderRequest) returns (OrderResponse);
+  rpc LookUpOrder (OrderLookUpRequest) returns (OrderLookUpResponse);
+  rpc SyncOrder (OrderSyncRequest) returns (OrderSyncResponse);
+  rpc get_latest_transaction_id (LastestOrderRequest) returns (LatestOrderResponse);
+  rpc HealthCheck (HealthCheckRequest) returns (HealthCheckResponse);
+  rpc LookUpOrdersById (LookUpByIdRequest) returns (LookUpByIdResponse);
+  rpc BulkUpsert (BulkUpsertRequest) returns (BulkUpsertResponse);
+}
+
+message OrderRequest {
+  string stock_name = 1;
+  string order_type = 2; // "buy" or "sell"
+  int32 quantity = 3;
+}
+
+message OrderResponse {
+  bool success = 1;
+  string message = 2;
+  int32 transaction_id = 3;
+}
+
+message OrderLookUpRequest {
+  int32 transaction_id = 1;
+}
+
+message OrderLookUpResponse {
+  bool exists = 1;
+  int32 transaction_id = 2;
+  string stock_name = 3;
+  string order_type = 4;
+  int32 quantity = 5;
+  string message = 6;
+}
+
+message OrderSyncRequest {
+  int32 transaction_id = 1;
+  string stock_name = 2;
+  string order_type = 3;
+  int32 quantity = 4;
+}
+
+message OrderSyncResponse {
+  bool success = 1;
+  string message = 2;
+}
+
+message LastestOrderRequest {
+
+}
+
+message LatestOrderResponse {
+  bool success = 1;
+  int32 transaction_id = 2;
+}
+
+message HealthCheckRequest {
+  
+}
+
+message HealthCheckResponse {
+  bool success = 1;
+}
+
+message LookUpByIdRequest {
+  int32 transaction_id = 1;
+}
+
+message LookUpByIdResponse {
+  bool exists = 1;
+  string message = 2; 
+  repeated OrderSyncRequest data = 3;
+}
+
+message BulkUpsertRequest {
+  repeated OrderSyncRequest data = 1;
+}
+
+message BulkUpsertResponse {
+  bool success = 1;
+  string message = 2; 
+}

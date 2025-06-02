@@ -1,0 +1,1468 @@
+127.0.0.1 - - [05/May/2025 05:34:06] "GET /stocks/ORCL HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:34:06] "GET /stocks/NFLX HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:34:06] "GET /stocks/CSCO HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:34:06] "GET /stocks/ORCL HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:34:06] "GET /stocks/AAPL HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:34:07] "GET /stocks/AAPL HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:34:07] "POST /orders HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:34:07] "GET /stocks/SAP HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:34:07] "GET /stocks/TSLA HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:34:08] "GET /stocks/META HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:34:08] "GET /orders/62 HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:34:09] "GET /stocks/IBM HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:34:09] "POST /orders HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:34:09] "GET /stocks/NVDA HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:34:09] "GET /stocks/UBER HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:34:10] "GET /stocks/NVDA HTTP/1.1" 200 -
+Front-end service started on port 8081
+{'replica_id': 3, 'address': 'localhost:50056', 'status': False}
+{'replica_id': 3, 'address': 'localhost:50056', 'status': False}
+{'replica_id': 3, 'address': 'localhost:50056', 'status': False}
+{'replica_id': 3, 'address': 'localhost:50056', 'status': False}
+{'replica_id': 3, 'address': 'localhost:50056', 'status': False}
+Elected Leader - 3
+Elected Leader - 3
+Elected Leader - 3
+Elected Leader - 3
+Elected Leader - 3
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[DEBUG] Handle cache called for NFLX
+[DEBUG] Cache MISS for NFLX
+[Cache MISS] NFLX
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[DEBUG] Handle cache called for CSCO
+[DEBUG] Cache MISS for CSCO
+[Cache MISS] CSCO
+[DEBUG] Handle cache called for ORCL
+[DEBUG] Cache MISS for ORCL
+[Cache MISS] ORCL
+[DEBUG] Handle cache called for AAPL
+[DEBUG] Cache MISS for AAPL
+[Cache MISS] AAPL
+[DEBUG] Handle cache called for ORCL
+[DEBUG] Cache MISS for ORCL
+[Cache MISS] ORCL
+[DEBUG] gRPC catalog call for ORCL took 0.00s
+[DEBUG] gRPC catalog call for NFLX took 0.00s
+[DEBUG] gRPC catalog call for CSCO took 0.00s
+[DEBUG] gRPC catalog call for AAPL took 0.00s
+[DEBUG] gRPC catalog call for ORCL took 0.01s
+[Cache UPDATE] Added ORCL, Cache Keys: ['NFLX', 'CSCO', 'AAPL', 'ORCL']
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Elected Leader - 3
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Elected Leader - 3
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[DEBUG] Handle cache called for AAPL
+[DEBUG] Cache HIT for AAPL
+[Cache HIT] AAPL
+[DEBUG] Returning cached data for AAPL
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+Cache - {'NFLX': {'data': {'name': 'NFLX', 'price': 53.94, 'quantity': 98}}, 'CSCO': {'data': {'name': 'CSCO', 'price': 48.12, 'quantity': 96}}, 'ORCL': {'data': {'name': 'ORCL', 'price': 785.49, 'quantity': 99}}, 'AAPL': {'data': {'name': 'AAPL', 'price': 100.13, 'quantity': 74}}}
+Invalidating Cache...
+[Cache INVALIDATE] Removed AAPL
+Cache - {'NFLX': {'data': {'name': 'NFLX', 'price': 53.94, 'quantity': 98}}, 'CSCO': {'data': {'name': 'CSCO', 'price': 48.12, 'quantity': 96}}, 'ORCL': {'data': {'name': 'ORCL', 'price': 785.49, 'quantity': 99}}}
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Elected Leader - 3
+Elected Leader - 3
+Order service replica 1 updated
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[DEBUG] Handle cache called for SAP
+[DEBUG] Cache MISS for SAP
+[Cache MISS] SAP
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Order service replica 2 updated
+Elected Leader - 3
+[DEBUG] gRPC catalog call for SAP took 0.05s
+[DEBUG] Handle cache called for TSLA
+[DEBUG] Cache MISS for TSLA
+[Cache MISS] TSLA
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+[DEBUG] gRPC catalog call for TSLA took 0.12s
+Elected Leader - 3
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[DEBUG] Handle cache called for META
+[DEBUG] Cache MISS for META
+[Cache MISS] META
+[DEBUG] gRPC catalog call for META took 0.12s
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+Cache - {'NFLX': {'data': {'name': 'NFLX', 'price': 53.94, 'quantity': 98}}, 'CSCO': {'data': {'name': 'CSCO', 'price': 48.12, 'quantity': 96}}, 'ORCL': {'data': {'name': 'ORCL', 'price': 785.49, 'quantity': 99}}, 'SAP': {'data': {'name': 'SAP', 'price': 170.55, 'quantity': 100}}, 'TSLA': {'data': {'name': 'TSLA', 'price': 104.9, 'quantity': 96}}, 'META': {'data': {'name': 'META', 'price': 113.46, 'quantity': 100}}}
+Invalidating Cache...
+[Cache INVALIDATE] Removed SAP
+Cache - {'NFLX': {'data': {'name': 'NFLX', 'price': 53.94, 'quantity': 98}}, 'CSCO': {'data': {'name': 'CSCO', 'price': 48.12, 'quantity': 96}}, 'ORCL': {'data': {'name': 'ORCL', 'price': 785.49, 'quantity': 99}}, 'TSLA': {'data': {'name': 'TSLA', 'price': 104.9, 'quantity': 96}}, 'META': {'data': {'name': 'META', 'price': 113.46, 'quantity': 100}}}
+Elected Leader - 3
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Elected Leader - 3
+Order service replica 1 updated
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+62
+localhost:50056
+Elected Leader - 3
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[DEBUG] Handle cache called for IBM
+[DEBUG] Cache MISS for IBM
+[Cache MISS] IBM
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+exists: true
+transaction_id: 62
+stock_name: "AAPL"
+order_type: "buy"
+quantity: 1
+
+Elected Leader - 3
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[DEBUG] Handle cache called for NVDA
+[DEBUG] Cache MISS for NVDA
+[Cache MISS] NVDA
+[DEBUG] gRPC catalog call for IBM took 0.15s
+Order service replica 2 updated
+[DEBUG] gRPC catalog call for NVDA took 0.18s
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[DEBUG] Handle cache called for UBER
+[DEBUG] Cache MISS for UBER
+[Cache MISS] UBER
+[DEBUG] gRPC catalog call for UBER took 0.31s
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Elected Leader - 3
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Elected Leader - 3
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[DEBUG] Handle cache called for NVDA
+[DEBUG] Cache HIT for NVDA
+[Cache HIT] NVDA
+[DEBUG] Returning cached data for NVDA
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+63
+localhost:50056127.0.0.1 - - [05/May/2025 05:34:11] "GET /orders/63 HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:34:11] "GET /stocks/ADBE HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:34:12] "GET /stocks/CRM HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:34:13] "GET /stocks/CRM HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:34:13] "GET /stocks/PYPL HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:34:13] "GET /stocks/AMZN HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:34:14] "GET /stocks/PYPL HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:34:14] "POST /orders HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:34:16] "GET /stocks/UBER HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:34:16] "GET /stocks/SHOP HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:34:17] "GET /stocks/NVDA HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:34:18] "GET /stocks/SHOP HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:34:18] "GET /orders/64 HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:34:21] "GET /stocks/AMD HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:34:21] "GET /stocks/CRM HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:34:22] "GET /stocks/ORCL HTTP/1.1" 200 -
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+
+exists: true
+transaction_id: 63
+stock_name: "SAP"
+order_type: "buy"
+quantity: 1
+
+Elected Leader - 3
+Elected Leader - 3
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[DEBUG] Handle cache called for ADBE
+[DEBUG] Cache MISS for ADBE
+[Cache MISS] ADBE
+[DEBUG] gRPC catalog call for ADBE took 0.08s
+Elected Leader - 3
+[DEBUG] Handle cache called for CRM
+[DEBUG] Cache MISS for CRM
+[Cache MISS] CRM
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+[DEBUG] gRPC catalog call for CRM took 0.20s
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Elected Leader - 3
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Elected Leader - 3
+Elected Leader - 3
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+Cache - {'NFLX': {'data': {'name': 'NFLX', 'price': 53.94, 'quantity': 98}}, 'CSCO': {'data': {'name': 'CSCO', 'price': 48.12, 'quantity': 96}}, 'ORCL': {'data': {'name': 'ORCL', 'price': 785.49, 'quantity': 99}}, 'TSLA': {'data': {'name': 'TSLA', 'price': 104.9, 'quantity': 96}}, 'META': {'data': {'name': 'META', 'price': 113.46, 'quantity': 100}}, 'IBM': {'data': {'name': 'IBM', 'price': 273.87, 'quantity': 98}}, 'UBER': {'data': {'name': 'UBER', 'price': 67.23, 'quantity': 93}}, 'NVDA': {'data': {'name': 'NVDA', 'price': 714.65, 'quantity': 97}}, 'ADBE': {'data': {'name': 'ADBE', 'price': 523.15, 'quantity': 100}}, 'CRM': {'data': {'name': 'CRM', 'price': 510.64, 'quantity': 100}}}
+Invalidating Cache...
+[Cache INVALIDATE] Removed UBER
+Cache - {'NFLX': {'data': {'name': 'NFLX', 'price': 53.94, 'quantity': 98}}, 'CSCO': {'data': {'name': 'CSCO', 'price': 48.12, 'quantity': 96}}, 'ORCL': {'data': {'name': 'ORCL', 'price': 785.49, 'quantity': 99}}, 'TSLA': {'data': {'name': 'TSLA', 'price': 104.9, 'quantity': 96}}, 'META': {'data': {'name': 'META', 'price': 113.46, 'quantity': 100}}, 'IBM': {'data': {'name': 'IBM', 'price': 273.87, 'quantity': 98}}, 'NVDA': {'data': {'name': 'NVDA', 'price': 714.65, 'quantity': 97}}, 'ADBE': {'data': {'name': 'ADBE', 'price': 523.15, 'quantity': 100}}, 'CRM': {'data': {'name': 'CRM', 'price': 510.64, 'quantity': 100}}}
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[DEBUG] Handle cache called for AMZN
+[DEBUG] Cache MISS for AMZN
+[Cache MISS] AMZN
+[DEBUG] Handle cache called for PYPL
+[DEBUG] Cache MISS for PYPL
+[Cache MISS] PYPL
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+[DEBUG] Handle cache called for CRM
+[DEBUG] Cache HIT for CRM
+[Cache HIT] CRM
+[DEBUG] Returning cached data for CRM
+[DEBUG] gRPC catalog call for PYPL took 0.25s
+[DEBUG] gRPC catalog call for AMZN took 0.40s
+Elected Leader - 3
+Order service replica 1 updated
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[DEBUG] Handle cache called for PYPL
+[DEBUG] Cache HIT for PYPL
+[Cache HIT] PYPL
+[DEBUG] Returning cached data for PYPL
+Order service replica 2 updated
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Elected Leader - 3
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+[DEBUG] Handle cache called for UBER
+[DEBUG] Cache MISS for UBER
+[Cache MISS] UBER
+Elected Leader - 3
+Elected Leader - 3
+Elected Leader - 3
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[DEBUG] Handle cache called for SHOP
+[DEBUG] Cache MISS for SHOP
+[Cache MISS] SHOP
+[DEBUG] gRPC catalog call for UBER took 0.53s
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+[DEBUG] gRPC catalog call for SHOP took 0.57s
+Elected Leader - 3
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[DEBUG] Handle cache called for NVDA
+[DEBUG] Cache HIT for NVDA
+[Cache HIT] NVDA
+[DEBUG] Returning cached data for NVDA
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[DEBUG] Handle cache called for SHOP
+[DEBUG] Cache HIT for SHOP
+[Cache HIT] SHOP
+[DEBUG] Returning cached data for SHOP
+64
+localhost:50056
+exists: true
+transaction_id: 64
+stock_name: "UBER"
+order_type: "buy"
+quantity: 1
+
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Elected Leader - 3
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+Elected Leader - 3
+[DEBUG] Handle cache called for AMD
+[DEBUG] Cache MISS for AMD
+[Cache MISS] AMD
+Elected Leader - 3
+Elected Leader - 3
+[DEBUG] gRPC catalog call for AMD took 0.37s
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[DEBUG] Handle cache called for CRM
+[DEBUG] Cache HIT for CRM
+[Cache HIT] CRM
+[DEBUG] Returning cached data for CRM
+Elected Leader - 3
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[DEBUG] Handle cache called for ORCL
+[DEBUG] Cache MISS for ORCL
+[Cache MISS] ORCL
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[DEBUG] gRPC catalog call for ORCL took 0.60s
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[DEBUG] Handle cache called for MSFT
+[DEBUG] Cache MISS for MSFT
+[Cache MISS] MSFT
+Cache - {'IBM': {'data': {'name': 'IBM', 'price': 273.87, 'quantity': 98}}, 'ADBE': {'data': {'name': 'ADBE', 'price': 523.15, 'quantity': 100}}, 'AMZN': {'data': {'name': 'AMZN', 'price': 588.96, 'quantity': 98}}, 'PYPL': {'data': {'name': 'PYPL', 'price': 102.67, 'quantity': 98}}, 'UBER': {'data': {'name': 'UBER', 'price': 67.23, 'quantity': 92}}, 'NVDA': {'data': {'name': 'NVDA', 'price': 714.65, 'quantity': 97}}, 'SHOP': {'data': {'name': 'SHOP', 'price': 62.94, 'quantity': 100}}, 'AMD': {'data': {'name': 'AMD', 'price': 904.61, 'quantity': 100}}, 'CRM': {'data': {'name': 'CRM', 'price': 510.64, 'quantity': 100}}, 'ORCL': {'data': {'name': 'ORCL', 'price': 785.49, 'quantity': 99}}}127.0.0.1 - - [05/May/2025 05:34:23] "GET /stocks/MSFT HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:34:24] "POST /orders HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:34:25] "GET /stocks/MSFT HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:34:27] "GET /stocks/GOOGL HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:34:27] "GET /stocks/AMZN HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:34:28] "GET /stocks/MSFT HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:34:30] "GET /orders/65 HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:34:30] "GET /stocks/SAP HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:34:32] "GET /stocks/TSLA HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:34:33] "POST /orders HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:34:34] "POST /orders HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:34:37] "GET /stocks/NFLX HTTP/1.1" 200 -
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+[DEBUG] gRPC catalog call for MSFT took 0.74s
+
+Invalidating Cache...
+[Cache INVALIDATE] Removed NVDA
+Cache - {'ADBE': {'data': {'name': 'ADBE', 'price': 523.15, 'quantity': 100}}, 'AMZN': {'data': {'name': 'AMZN', 'price': 588.96, 'quantity': 98}}, 'PYPL': {'data': {'name': 'PYPL', 'price': 102.67, 'quantity': 98}}, 'UBER': {'data': {'name': 'UBER', 'price': 67.23, 'quantity': 92}}, 'SHOP': {'data': {'name': 'SHOP', 'price': 62.94, 'quantity': 100}}, 'AMD': {'data': {'name': 'AMD', 'price': 904.61, 'quantity': 100}}, 'CRM': {'data': {'name': 'CRM', 'price': 510.64, 'quantity': 100}}, 'ORCL': {'data': {'name': 'ORCL', 'price': 785.49, 'quantity': 99}}, 'MSFT': {'data': {'name': 'MSFT', 'price': 675.76, 'quantity': 100}}}
+Order service replica 1 updated
+Elected Leader - 3
+Order service replica 2 updated
+Elected Leader - 3
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+[DEBUG] Handle cache called for MSFT
+[DEBUG] Cache HIT for MSFT
+[Cache HIT] MSFT
+[DEBUG] Returning cached data for MSFT
+Elected Leader - 3
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+[DEBUG] Handle cache called for GOOGL
+[DEBUG] Cache MISS for GOOGL
+[Cache MISS] GOOGL
+Elected Leader - 3
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+[DEBUG] gRPC catalog call for GOOGL took 1.01s
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+Elected Leader - 3
+[DEBUG] Handle cache called for AMZN
+[DEBUG] Cache HIT for AMZN
+[Cache HIT] AMZN
+[DEBUG] Returning cached data for AMZN
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Elected Leader - 3
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[DEBUG] Handle cache called for MSFT
+[DEBUG] Cache HIT for MSFT
+[Cache HIT] MSFT
+[DEBUG] Returning cached data for MSFT
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+[DEBUG] Handle cache called for SAP
+[DEBUG] Cache MISS for SAP
+[Cache MISS] SAP
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+65
+localhost:50056
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Elected Leader - 3
+exists: true
+transaction_id: 65
+stock_name: "NVDA"
+order_type: "buy"
+quantity: 1
+
+[DEBUG] gRPC catalog call for SAP took 1.01s
+Elected Leader - 3
+Elected Leader - 3
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+Cache - {'PYPL': {'data': {'name': 'PYPL', 'price': 102.67, 'quantity': 98}}, 'UBER': {'data': {'name': 'UBER', 'price': 67.23, 'quantity': 92}}, 'SHOP': {'data': {'name': 'SHOP', 'price': 62.94, 'quantity': 100}}, 'AMD': {'data': {'name': 'AMD', 'price': 904.61, 'quantity': 100}}, 'CRM': {'data': {'name': 'CRM', 'price': 510.64, 'quantity': 100}}, 'ORCL': {'data': {'name': 'ORCL', 'price': 785.49, 'quantity': 99}}, 'GOOGL': {'data': {'name': 'GOOGL', 'price': 996.18, 'quantity': 96}}, 'AMZN': {'data': {'name': 'AMZN', 'price': 588.96, 'quantity': 98}}, 'MSFT': {'data': {'name': 'MSFT', 'price': 675.76, 'quantity': 100}}, 'SAP': {'data': {'name': 'SAP', 'price': 170.55, 'quantity': 99}}}
+Invalidating Cache...
+[Cache INVALIDATE] Removed AMZN
+Cache - {'PYPL': {'data': {'name': 'PYPL', 'price': 102.67, 'quantity': 98}}, 'UBER': {'data': {'name': 'UBER', 'price': 67.23, 'quantity': 92}}, 'SHOP': {'data': {'name': 'SHOP', 'price': 62.94, 'quantity': 100}}, 'AMD': {'data': {'name': 'AMD', 'price': 904.61, 'quantity': 100}}, 'CRM': {'data': {'name': 'CRM', 'price': 510.64, 'quantity': 100}}, 'ORCL': {'data': {'name': 'ORCL', 'price': 785.49, 'quantity': 99}}, 'GOOGL': {'data': {'name': 'GOOGL', 'price': 996.18, 'quantity': 96}}, 'MSFT': {'data': {'name': 'MSFT', 'price': 675.76, 'quantity': 100}}, 'SAP': {'data': {'name': 'SAP', 'price': 170.55, 'quantity': 99}}}
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[DEBUG] Handle cache called for TSLA
+[DEBUG] Cache MISS for TSLA
+[Cache MISS] TSLA
+Order service replica 1 updated
+[DEBUG] gRPC catalog call for TSLA took 1.05s
+Cache - {'PYPL': {'data': {'name': 'PYPL', 'price': 102.67, 'quantity': 98}}, 'UBER': {'data': {'name': 'UBER', 'price': 67.23, 'quantity': 92}}, 'SHOP': {'data': {'name': 'SHOP', 'price': 62.94, 'quantity': 100}}, 'AMD': {'data': {'name': 'AMD', 'price': 904.61, 'quantity': 100}}, 'CRM': {'data': {'name': 'CRM', 'price': 510.64, 'quantity': 100}}, 'ORCL': {'data': {'name': 'ORCL', 'price': 785.49, 'quantity': 99}}, 'GOOGL': {'data': {'name': 'GOOGL', 'price': 996.18, 'quantity': 96}}, 'MSFT': {'data': {'name': 'MSFT', 'price': 675.76, 'quantity': 100}}, 'SAP': {'data': {'name': 'SAP', 'price': 170.55, 'quantity': 99}}, 'TSLA': {'data': {'name': 'TSLA', 'price': 104.9, 'quantity': 96}}}
+Invalidating Cache...
+[Cache INVALIDATE] Removed MSFT
+Cache - {'PYPL': {'data': {'name': 'PYPL', 'price': 102.67, 'quantity': 98}}, 'UBER': {'data': {'name': 'UBER', 'price': 67.23, 'quantity': 92}}, 'SHOP': {'data': {'name': 'SHOP', 'price': 62.94, 'quantity': 100}}, 'AMD': {'data': {'name': 'AMD', 'price': 904.61, 'quantity': 100}}, 'CRM': {'data': {'name': 'CRM', 'price': 510.64, 'quantity': 100}}, 'ORCL': {'data': {'name': 'ORCL', 'price': 785.49, 'quantity': 99}}, 'GOOGL': {'data': {'name': 'GOOGL', 'price': 996.18, 'quantity': 96}}, 'SAP': {'data': {'name': 'SAP', 'price': 170.55, 'quantity': 99}}, 'TSLA': {'data': {'name': 'TSLA', 'price': 104.9, 'quantity': 96}}}
+Order service replica 1 updated
+Order service replica 2 updated
+Order service replica 2 updated
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Elected Leader - 3
+Elected Leader - 3
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Elected Leader - 3
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[DEBUG] Handle cache called for NFLX
+[DEBUG] Cache MISS for NFLX
+[Cache MISS] NFLX
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+Elected Leader - 3
+[DEBUG] gRPC catalog call for NFLX took 0.43s
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[DEBUG] Handle cache called for GOOGL
+[DEBUG] Cache HIT for GOOGL
+[Cache HIT] GOOGL
+[DEBUG] Returning cached data for GOOGL127.0.0.1 - - [05/May/2025 05:34:37] "GET /stocks/GOOGL HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:34:38] "GET /stocks/SQ HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:34:39] "GET /orders/66 HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:34:40] "GET /orders/67 HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:34:42] "GET /stocks/UBER HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:34:43] "GET /stocks/ORCL HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:34:44] "GET /stocks/INTC HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:34:46] "GET /stocks/CSCO HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:34:47] "POST /orders HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:34:50] "POST /orders HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:34:52] "POST /orders HTTP/1.1" 200 -
+
+[DEBUG] Handle cache called for SQ
+[DEBUG] Cache MISS for SQ
+[Cache MISS] SQ
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Elected Leader - 3
+[DEBUG] gRPC catalog call for SQ took 0.72s
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+66
+localhost:50056
+exists: true
+transaction_id: 66
+stock_name: "AMZN"
+order_type: "buy"
+quantity: 1
+
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+67
+localhost:50056
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+exists: true
+transaction_id: 67
+stock_name: "MSFT"
+order_type: "buy"
+quantity: 1
+
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Elected Leader - 3
+Elected Leader - 3
+Elected Leader - 3
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[DEBUG] Handle cache called for UBER
+[DEBUG] Cache HIT for UBER
+[Cache HIT] UBER
+[DEBUG] Returning cached data for UBER
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+Elected Leader - 3
+Elected Leader - 3
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[DEBUG] Handle cache called for ORCL
+[DEBUG] Cache HIT for ORCL
+[Cache HIT] ORCL
+[DEBUG] Returning cached data for ORCL
+Cache - {'SHOP': {'data': {'name': 'SHOP', 'price': 62.94, 'quantity': 100}}, 'AMD': {'data': {'name': 'AMD', 'price': 904.61, 'quantity': 100}}, 'CRM': {'data': {'name': 'CRM', 'price': 510.64, 'quantity': 100}}, 'SAP': {'data': {'name': 'SAP', 'price': 170.55, 'quantity': 99}}, 'TSLA': {'data': {'name': 'TSLA', 'price': 104.9, 'quantity': 96}}, 'NFLX': {'data': {'name': 'NFLX', 'price': 53.94, 'quantity': 98}}, 'GOOGL': {'data': {'name': 'GOOGL', 'price': 996.18, 'quantity': 96}}, 'SQ': {'data': {'name': 'SQ', 'price': 75.36, 'quantity': 98}}, 'UBER': {'data': {'name': 'UBER', 'price': 67.23, 'quantity': 92}}, 'ORCL': {'data': {'name': 'ORCL', 'price': 785.49, 'quantity': 99}}}
+Invalidating Cache...
+[Cache INVALIDATE] Removed GOOGL
+Cache - {'SHOP': {'data': {'name': 'SHOP', 'price': 62.94, 'quantity': 100}}, 'AMD': {'data': {'name': 'AMD', 'price': 904.61, 'quantity': 100}}, 'CRM': {'data': {'name': 'CRM', 'price': 510.64, 'quantity': 100}}, 'SAP': {'data': {'name': 'SAP', 'price': 170.55, 'quantity': 99}}, 'TSLA': {'data': {'name': 'TSLA', 'price': 104.9, 'quantity': 96}}, 'NFLX': {'data': {'name': 'NFLX', 'price': 53.94, 'quantity': 98}}, 'SQ': {'data': {'name': 'SQ', 'price': 75.36, 'quantity': 98}}, 'UBER': {'data': {'name': 'UBER', 'price': 67.23, 'quantity': 92}}, 'ORCL': {'data': {'name': 'ORCL', 'price': 785.49, 'quantity': 99}}}
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[DEBUG] Handle cache called for CSCO
+[DEBUG] Cache MISS for CSCO
+[Cache MISS] CSCO
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[DEBUG] Handle cache called for INTC
+[DEBUG] Cache MISS for INTC
+[Cache MISS] INTC
+[DEBUG] gRPC catalog call for INTC took 0.14s
+Order service replica 1 updated
+[DEBUG] gRPC catalog call for CSCO took 1.59s
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Elected Leader - 3
+Order service replica 2 updated
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Elected Leader - 3
+Cache - {'AMD': {'data': {'name': 'AMD', 'price': 904.61, 'quantity': 100}}, 'CRM': {'data': {'name': 'CRM', 'price': 510.64, 'quantity': 100}}, 'SAP': {'data': {'name': 'SAP', 'price': 170.55, 'quantity': 99}}, 'TSLA': {'data': {'name': 'TSLA', 'price': 104.9, 'quantity': 96}}, 'NFLX': {'data': {'name': 'NFLX', 'price': 53.94, 'quantity': 98}}, 'SQ': {'data': {'name': 'SQ', 'price': 75.36, 'quantity': 98}}, 'UBER': {'data': {'name': 'UBER', 'price': 67.23, 'quantity': 92}}, 'ORCL': {'data': {'name': 'ORCL', 'price': 785.49, 'quantity': 99}}, 'INTC': {'data': {'name': 'INTC', 'price': 951.97, 'quantity': 99}}, 'CSCO': {'data': {'name': 'CSCO', 'price': 48.12, 'quantity': 96}}}
+Invalidating Cache...
+[Cache INVALIDATE] Removed UBER
+Cache - {'AMD': {'data': {'name': 'AMD', 'price': 904.61, 'quantity': 100}}, 'CRM': {'data': {'name': 'CRM', 'price': 510.64, 'quantity': 100}}, 'SAP': {'data': {'name': 'SAP', 'price': 170.55, 'quantity': 99}}, 'TSLA': {'data': {'name': 'TSLA', 'price': 104.9, 'quantity': 96}}, 'NFLX': {'data': {'name': 'NFLX', 'price': 53.94, 'quantity': 98}}, 'SQ': {'data': {'name': 'SQ', 'price': 75.36, 'quantity': 98}}, 'ORCL': {'data': {'name': 'ORCL', 'price': 785.49, 'quantity': 99}}, 'INTC': {'data': {'name': 'INTC', 'price': 951.97, 'quantity': 99}}, 'CSCO': {'data': {'name': 'CSCO', 'price': 48.12, 'quantity': 96}}}
+Order service replica 1 updated
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Order service replica 2 updated
+Elected Leader - 3
+Elected Leader - 3
+Cache - {'AMD': {'data': {'name': 'AMD', 'price': 904.61, 'quantity': 100}}, 'CRM': {'data': {'name': 'CRM', 'price': 510.64, 'quantity': 100}}, 'SAP': {'data': {'name': 'SAP', 'price': 170.55, 'quantity': 99}}, 'TSLA': {'data': {'name': 'TSLA', 'price': 104.9, 'quantity': 96}}, 'NFLX': {'data': {'name': 'NFLX', 'price': 53.94, 'quantity': 98}}, 'SQ': {'data': {'name': 'SQ', 'price': 75.36, 'quantity': 98}}, 'ORCL': {'data': {'name': 'ORCL', 'price': 785.49, 'quantity': 99}}, 'INTC': {'data': {'name': 'INTC', 'price': 951.97, 'quantity': 99}}, 'CSCO': {'data': {'name': 'CSCO', 'price': 48.12, 'quantity': 96}}}
+Invalidating Cache...
+[Cache INVALIDATE] Removed ORCL
+Cache - {'AMD': {'data': {'name': 'AMD', 'price': 904.61, 'quantity': 100}}, 'CRM': {'data': {'name': 'CRM', 'price': 510.64, 'quantity': 100}}, 'SAP': {'data': {'name': 'SAP', 'price': 170.55, 'quantity': 99}}, 'TSLA': {'data': {'name': 'TSLA', 'price': 104.9, 'quantity': 96}}, 'NFLX': {'data': {'name': 'NFLX', 'price': 53.94, 'quantity': 98}}, 'SQ': {'data': {'name': 'SQ', 'price': 75.36, 'quantity': 98}}, 'INTC': {'data': {'name': 'INTC', 'price': 951.97, 'quantity': 99}}, 'CSCO': {'data': {'name': 'CSCO', 'price': 48.12, 'quantity': 96}}}
+Order service replica 1 updated
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Order service replica 2 updated
+Elected Leader - 3
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+68
+localhost:50056
+Cache - {'AMD': {'data': {'name': 'AMD', 'price': 904.61, 'quantity': 100}}, 'CRM': {'data': {'name': 'CRM', 'price': 510.64, 'quantity': 100}}, 'SAP': {'data': {'name': 'SAP', 'price': 170.55, 'quantity': 99}}, 'TSLA': {'data': {'name': 'TSLA', 'price': 104.9, 'quantity': 96}}, 'NFLX': {'data': {'name': 'NFLX', 'price': 53.94, 'quantity': 98}}, 'SQ': {'data': {'name': 'SQ', 'price': 75.36, 'quantity': 98}}, 'INTC': {'data': {'name': 'INTC', 'price': 951.97, 'quantity': 99}}, 'CSCO': {'data': {'name': 'CSCO', 'price': 48.12, 'quantity': 96}}}127.0.0.1 - - [05/May/2025 05:34:55] "GET /orders/68 HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:34:57] "GET /orders/69 HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:34:57] "POST /orders HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:34:57] "POST /orders HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:34:58] "GET /orders/70 HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:35:00] "GET /stocks/GOOGL HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:35:02] "GET /stocks/AMD HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:35:04] "GET /orders/72 HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:35:05] "GET /orders/71 HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:35:07] "GET /stocks/UBER HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:35:08] "GET /stocks/NVDA HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:35:09] "GET /stocks/AMD HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:35:13] "GET /stocks/CSCO HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:35:15] "GET /stocks/AMZN HTTP/1.1" 200 -
+
+Invalidating Cache...
+[Cache INVALIDATE] Removed CSCO
+Cache - {'AMD': {'data': {'name': 'AMD', 'price': 904.61, 'quantity': 100}}, 'CRM': {'data': {'name': 'CRM', 'price': 510.64, 'quantity': 100}}, 'SAP': {'data': {'name': 'SAP', 'price': 170.55, 'quantity': 99}}, 'TSLA': {'data': {'name': 'TSLA', 'price': 104.9, 'quantity': 96}}, 'NFLX': {'data': {'name': 'NFLX', 'price': 53.94, 'quantity': 98}}, 'SQ': {'data': {'name': 'SQ', 'price': 75.36, 'quantity': 98}}, 'INTC': {'data': {'name': 'INTC', 'price': 951.97, 'quantity': 99}}}
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Elected Leader - 3
+Cache - {'AMD': {'data': {'name': 'AMD', 'price': 904.61, 'quantity': 100}}, 'CRM': {'data': {'name': 'CRM', 'price': 510.64, 'quantity': 100}}, 'SAP': {'data': {'name': 'SAP', 'price': 170.55, 'quantity': 99}}, 'TSLA': {'data': {'name': 'TSLA', 'price': 104.9, 'quantity': 96}}, 'NFLX': {'data': {'name': 'NFLX', 'price': 53.94, 'quantity': 98}}, 'SQ': {'data': {'name': 'SQ', 'price': 75.36, 'quantity': 98}}, 'INTC': {'data': {'name': 'INTC', 'price': 951.97, 'quantity': 99}}}
+Invalidating Cache...
+[Cache INVALIDATE] Removed INTC
+Cache - {'AMD': {'data': {'name': 'AMD', 'price': 904.61, 'quantity': 100}}, 'CRM': {'data': {'name': 'CRM', 'price': 510.64, 'quantity': 100}}, 'SAP': {'data': {'name': 'SAP', 'price': 170.55, 'quantity': 99}}, 'TSLA': {'data': {'name': 'TSLA', 'price': 104.9, 'quantity': 96}}, 'NFLX': {'data': {'name': 'NFLX', 'price': 53.94, 'quantity': 98}}, 'SQ': {'data': {'name': 'SQ', 'price': 75.36, 'quantity': 98}}}
+Order service replica 1 updated
+exists: true
+transaction_id: 68
+stock_name: "GOOGL"
+order_type: "buy"
+quantity: 1
+
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+69
+localhost:50056
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Elected Leader - 3
+Elected Leader - 3
+Order service replica 1 updated
+exists: true
+transaction_id: 69
+stock_name: "UBER"
+order_type: "buy"
+quantity: 1
+
+Order service replica 2 updated
+Order service replica 2 updated
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+70
+localhost:50056
+exists: true
+transaction_id: 70
+stock_name: "ORCL"
+order_type: "buy"
+quantity: 1
+
+[DEBUG] Handle cache called for GOOGL
+[DEBUG] Cache MISS for GOOGL
+[Cache MISS] GOOGL
+[DEBUG] gRPC catalog call for GOOGL took 1.78s
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Elected Leader - 3
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Elected Leader - 3
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+[DEBUG] Handle cache called for AMD
+[DEBUG] Cache HIT for AMD
+[Cache HIT] AMD
+[DEBUG] Returning cached data for AMD
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Elected Leader - 3
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+72
+localhost:50056
+exists: true
+transaction_id: 72
+stock_name: "INTC"
+order_type: "buy"
+quantity: 1
+
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+71
+localhost:50056
+Elected Leader - 3
+Elected Leader - 3
+exists: true
+transaction_id: 71
+stock_name: "CSCO"
+order_type: "buy"
+quantity: 1
+
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[DEBUG] Handle cache called for NVDA
+[DEBUG] Cache MISS for NVDA
+[Cache MISS] NVDA
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+[DEBUG] Handle cache called for UBER
+[DEBUG] Cache MISS for UBER
+[Cache MISS] UBER
+[DEBUG] gRPC catalog call for UBER took 0.04s
+Elected Leader - 3
+[DEBUG] gRPC catalog call for NVDA took 1.71s
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Elected Leader - 3
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[DEBUG] Handle cache called for AMD
+[DEBUG] Cache HIT for AMD
+[Cache HIT] AMD
+[DEBUG] Returning cached data for AMD
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Elected Leader - 3
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Elected Leader - 3
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[DEBUG] Handle cache called for CSCO
+[DEBUG] Cache MISS for CSCO
+[Cache MISS] CSCO
+Elected Leader - 3
+[DEBUG] gRPC catalog call for CSCO took 0.98s
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Elected Leader - 3
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[DEBUG] Handle cache called for AMZN
+[DEBUG] Cache MISS for AMZN
+[Cache MISS] AMZN
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[DEBUG] gRPC catalog call for AMZN took 0.61s
+[DEBUG] Handle cache called for NVDA
+[DEBUG] Cache HIT for NVDA
+[Cache HIT] NVDA
+[DEBUG] Returning cached data for NVDA
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Cache - {'SAP': {'data': {'name': 'SAP', 'price': 170.55, 'quantity': 99}}, 'TSLA': {'data': {'name': 'TSLA', 'price': 104.9, 'quantity': 96}}, 'NFLX': {'data': {'name': 'NFLX', 'price': 53.94, 'quantity': 98}}, 'SQ': {'data': {'name': 'SQ', 'price': 75.36, 'quantity': 98}}, 'GOOGL': {'data': {'name': 'GOOGL', 'price': 996.18, 'quantity': 95}}, 'UBER': {'data': {'name': 'UBER', 'price': 67.23, 'quantity': 91}}, 'AMD': {'data': {'name': 'AMD', 'price': 904.61, 'quantity': 100}}, 'CSCO': {'data': {'name': 'CSCO', 'price': 48.12, 'quantity': 95}}, 'AMZN': {'data': {'name': 'AMZN', 'price': 588.96, 'quantity': 97}}, 'NVDA': {'data': {'name': 'NVDA', 'price': 714.65, 'quantity': 96}}}
+Invalidating Cache...
+[Cache INVALIDATE] Removed UBER
+Cache - {'SAP': {'data': {'name': 'SAP', 'price': 170.55, 'quantity': 99}}, 'TSLA': {'data': {'name': 'TSLA', 'price': 104.9, 'quantity': 96}}, 'NFLX': {'data': {'name': 'NFLX', 'price': 53.94, 'quantity': 98}}, 'SQ': {'data': {'name': 'SQ', 'price': 75.36, 'quantity': 98}}, 'GOOGL': {'data': {'name': 'GOOGL', 'price': 996.18, 'quantity': 95}}, 'AMD': {'data': {'name': 'AMD', 'price': 904.61, 'quantity': 100}}, 'CSCO': {'data': {'name': 'CSCO', 'price': 48.12, 'quantity': 95}}, 'AMZN': {'data': {'name': 'AMZN', 'price': 588.96, 'quantity': 97}}, 'NVDA': {'data': {'name': 'NVDA', 'price': 714.65, 'quantity': 96}}}127.0.0.1 - - [05/May/2025 05:35:15] "GET /stocks/NVDA HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:35:20] "POST /orders HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:35:21] "POST /orders HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:35:22] "GET /stocks/SAP HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:35:24] "GET /stocks/ORCL HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:35:25] "GET /stocks/ADBE HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:35:30] "GET /stocks/SHOP HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:35:30] "GET /orders/73 HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:35:32] "GET /orders/74 HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:35:36] "GET /stocks/AMZN HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:35:36] "POST /orders HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:35:38] "GET /stocks/GOOGL HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:35:40] "POST /orders HTTP/1.1" 200 -
+Cache - {'SAP': {'data': {'name': 'SAP', 'price': 170.55, 'quantity': 99}}, 'TSLA': {'data': {'name': 'TSLA', 'price': 104.9, 'quantity': 96}}, 'NFLX': {'data': {'name': 'NFLX', 'price': 53.94, 'quantity': 98}}, 'SQ': {'data': {'name': 'SQ', 'price': 75.36, 'quantity': 98}}, 'GOOGL': {'data': {'name': 'GOOGL', 'price': 996.18, 'quantity': 95}}, 'AMD': {'data': {'name': 'AMD', 'price': 904.61, 'quantity': 100}}, 'CSCO': {'data': {'name': 'CSCO', 'price': 48.12, 'quantity': 95}}, 'AMZN': {'data': {'name': 'AMZN', 'price': 588.96, 'quantity': 97}}, 'NVDA': {'data': {'name': 'NVDA', 'price': 714.65, 'quantity': 96}}}
+Invalidating Cache...
+[Cache INVALIDATE] Removed AMD
+Cache - {'SAP': {'data': {'name': 'SAP', 'price': 170.55, 'quantity': 99}}, 'TSLA': {'data': {'name': 'TSLA', 'price': 104.9, 'quantity': 96}}, 'NFLX': {'data': {'name': 'NFLX', 'price': 53.94, 'quantity': 98}}, 'SQ': {'data': {'name': 'SQ', 'price': 75.36, 'quantity': 98}}, 'GOOGL': {'data': {'name': 'GOOGL', 'price': 996.18, 'quantity': 95}}, 'CSCO': {'data': {'name': 'CSCO', 'price': 48.12, 'quantity': 95}}, 'AMZN': {'data': {'name': 'AMZN', 'price': 588.96, 'quantity': 97}}, 'NVDA': {'data': {'name': 'NVDA', 'price': 714.65, 'quantity': 96}}}
+
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Order service replica 1 updated
+Elected Leader - 3
+Order service replica 1 updated
+Elected Leader - 3
+Order service replica 2 updated
+Order service replica 2 updated
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[DEBUG] Handle cache called for SAP
+[DEBUG] Cache HIT for SAP
+[Cache HIT] SAP
+[DEBUG] Returning cached data for SAP
+Elected Leader - 3
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[DEBUG] Handle cache called for ORCL
+[DEBUG] Cache MISS for ORCL
+[Cache MISS] ORCL
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[DEBUG] Handle cache called for ADBE
+[DEBUG] Cache MISS for ADBE
+[Cache MISS] ADBE
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Elected Leader - 3
+[DEBUG] gRPC catalog call for ORCL took 1.25s
+[DEBUG] gRPC catalog call for ADBE took 1.39s
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Elected Leader - 3
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+73
+localhost:50056
+Elected Leader - 3
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[DEBUG] Handle cache called for SHOP
+[DEBUG] Cache MISS for SHOP
+[Cache MISS] SHOP
+[DEBUG] gRPC catalog call for SHOP took 0.17s
+exists: true
+transaction_id: 73
+stock_name: "UBER"
+order_type: "buy"
+quantity: 1
+
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+74
+localhost:50056
+Elected Leader - 3
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Elected Leader - 3
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+exists: true
+transaction_id: 74
+stock_name: "AMD"
+order_type: "buy"
+quantity: 1
+
+Cache - {'NFLX': {'data': {'name': 'NFLX', 'price': 53.94, 'quantity': 98}}, 'SQ': {'data': {'name': 'SQ', 'price': 75.36, 'quantity': 98}}, 'GOOGL': {'data': {'name': 'GOOGL', 'price': 996.18, 'quantity': 95}}, 'CSCO': {'data': {'name': 'CSCO', 'price': 48.12, 'quantity': 95}}, 'AMZN': {'data': {'name': 'AMZN', 'price': 588.96, 'quantity': 97}}, 'NVDA': {'data': {'name': 'NVDA', 'price': 714.65, 'quantity': 96}}, 'SAP': {'data': {'name': 'SAP', 'price': 170.55, 'quantity': 99}}, 'ORCL': {'data': {'name': 'ORCL', 'price': 785.49, 'quantity': 98}}, 'ADBE': {'data': {'name': 'ADBE', 'price': 523.15, 'quantity': 100}}, 'SHOP': {'data': {'name': 'SHOP', 'price': 62.94, 'quantity': 100}}}
+Invalidating Cache...
+[Cache INVALIDATE] Removed ORCL
+Cache - {'NFLX': {'data': {'name': 'NFLX', 'price': 53.94, 'quantity': 98}}, 'SQ': {'data': {'name': 'SQ', 'price': 75.36, 'quantity': 98}}, 'GOOGL': {'data': {'name': 'GOOGL', 'price': 996.18, 'quantity': 95}}, 'CSCO': {'data': {'name': 'CSCO', 'price': 48.12, 'quantity': 95}}, 'AMZN': {'data': {'name': 'AMZN', 'price': 588.96, 'quantity': 97}}, 'NVDA': {'data': {'name': 'NVDA', 'price': 714.65, 'quantity': 96}}, 'SAP': {'data': {'name': 'SAP', 'price': 170.55, 'quantity': 99}}, 'ADBE': {'data': {'name': 'ADBE', 'price': 523.15, 'quantity': 100}}, 'SHOP': {'data': {'name': 'SHOP', 'price': 62.94, 'quantity': 100}}}
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+Order service replica 1 updated
+Elected Leader - 3
+Cache - {'NFLX': {'data': {'name': 'NFLX', 'price': 53.94, 'quantity': 98}}, 'SQ': {'data': {'name': 'SQ', 'price': 75.36, 'quantity': 98}}, 'GOOGL': {'data': {'name': 'GOOGL', 'price': 996.18, 'quantity': 95}}, 'CSCO': {'data': {'name': 'CSCO', 'price': 48.12, 'quantity': 95}}, 'AMZN': {'data': {'name': 'AMZN', 'price': 588.96, 'quantity': 97}}, 'NVDA': {'data': {'name': 'NVDA', 'price': 714.65, 'quantity': 96}}, 'SAP': {'data': {'name': 'SAP', 'price': 170.55, 'quantity': 99}}, 'ADBE': {'data': {'name': 'ADBE', 'price': 523.15, 'quantity': 100}}, 'SHOP': {'data': {'name': 'SHOP', 'price': 62.94, 'quantity': 100}}}
+Invalidating Cache...
+[Cache INVALIDATE] Removed ADBE
+Cache - {'NFLX': {'data': {'name': 'NFLX', 'price': 53.94, 'quantity': 98}}, 'SQ': {'data': {'name': 'SQ', 'price': 75.36, 'quantity': 98}}, 'GOOGL': {'data': {'name': 'GOOGL', 'price': 996.18, 'quantity': 95}}, 'CSCO': {'data': {'name': 'CSCO', 'price': 48.12, 'quantity': 95}}, 'AMZN': {'data': {'name': 'AMZN', 'price': 588.96, 'quantity': 97}}, 'NVDA': {'data': {'name': 'NVDA', 'price': 714.65, 'quantity': 96}}, 'SAP': {'data': {'name': 'SAP', 'price': 170.55, 'quantity': 99}}, 'SHOP': {'data': {'name': 'SHOP', 'price': 62.94, 'quantity': 100}}}
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Elected Leader - 3
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[DEBUG] Handle cache called for AMZN
+[DEBUG] Cache HIT for AMZN
+[Cache HIT] AMZN
+[DEBUG] Returning cached data for AMZN
+Order service replica 2 updated
+Elected Leader - 3
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[DEBUG] Handle cache called for GOOGL
+[DEBUG] Cache HIT for GOOGL
+[Cache HIT] GOOGL
+[DEBUG] Returning cached data for GOOGL
+Order service replica 1 updated
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+Order service replica 2 updated
+[DEBUG] Handle cache called for IBM
+[DEBUG] Cache MISS for IBM
+[Cache MISS] IBM
+Elected Leader - 3127.0.0.1 - - [05/May/2025 05:35:41] "GET /stocks/IBM HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:35:44] "GET /stocks/NVDA HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:35:51] "GET /orders/75 HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:35:53] "GET /stocks/SQ HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:35:54] "GET /orders/76 HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:35:58] "GET /stocks/META HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:35:59] "GET /stocks/AMD HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:36:03] "GET /stocks/INTC HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:36:03] "GET /stocks/INTC HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:36:11] "GET /stocks/IBM HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:36:12] "POST /orders HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:36:15] "GET /stocks/SAP HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:36:15] "GET /stocks/AMZN HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:36:19] "POST /orders HTTP/1.1" 200 -
+
+[DEBUG] gRPC catalog call for IBM took 0.80s
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Elected Leader - 3
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[DEBUG] Handle cache called for NVDA
+[DEBUG] Cache HIT for NVDA
+[Cache HIT] NVDA
+[DEBUG] Returning cached data for NVDA
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+75
+localhost:50056
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Elected Leader - 3
+Elected Leader - 3
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Elected Leader - 3
+exists: true
+transaction_id: 75
+stock_name: "ORCL"
+order_type: "buy"
+quantity: 1
+
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[DEBUG] Handle cache called for SQ
+[DEBUG] Cache HIT for SQ
+[Cache HIT] SQ
+[DEBUG] Returning cached data for SQ
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+76
+localhost:50056
+exists: true
+transaction_id: 76
+stock_name: "ADBE"
+order_type: "buy"
+quantity: 1
+
+Elected Leader - 3
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+[DEBUG] Handle cache called for META
+[DEBUG] Cache MISS for META
+[Cache MISS] META
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[DEBUG] Handle cache called for AMD
+[DEBUG] Cache MISS for AMD
+[Cache MISS] AMD
+Elected Leader - 3
+[DEBUG] gRPC catalog call for META took 3.04s
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+[DEBUG] gRPC catalog call for AMD took 1.78s
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Elected Leader - 3
+Elected Leader - 3
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[DEBUG] Handle cache called for INTC
+[DEBUG] Cache MISS for INTC
+[Cache MISS] INTC
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[DEBUG] Handle cache called for INTC
+[DEBUG] Cache MISS for INTC
+[Cache MISS] INTC
+[DEBUG] gRPC catalog call for INTC took 1.15s
+[DEBUG] gRPC catalog call for INTC took 0.67s
+[Cache UPDATE] Added INTC, Cache Keys: ['SAP', 'SHOP', 'AMZN', 'GOOGL', 'IBM', 'NVDA', 'SQ', 'META', 'AMD', 'INTC']
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+Cache - {'SAP': {'data': {'name': 'SAP', 'price': 170.55, 'quantity': 99}}, 'SHOP': {'data': {'name': 'SHOP', 'price': 62.94, 'quantity': 100}}, 'AMZN': {'data': {'name': 'AMZN', 'price': 588.96, 'quantity': 97}}, 'GOOGL': {'data': {'name': 'GOOGL', 'price': 996.18, 'quantity': 95}}, 'IBM': {'data': {'name': 'IBM', 'price': 273.87, 'quantity': 98}}, 'NVDA': {'data': {'name': 'NVDA', 'price': 714.65, 'quantity': 96}}, 'SQ': {'data': {'name': 'SQ', 'price': 75.36, 'quantity': 98}}, 'META': {'data': {'name': 'META', 'price': 113.46, 'quantity': 100}}, 'AMD': {'data': {'name': 'AMD', 'price': 904.61, 'quantity': 99}}, 'INTC': {'data': {'name': 'INTC', 'price': 951.97, 'quantity': 98}}}
+Invalidating Cache...
+[Cache INVALIDATE] Removed SQ
+Cache - {'SAP': {'data': {'name': 'SAP', 'price': 170.55, 'quantity': 99}}, 'SHOP': {'data': {'name': 'SHOP', 'price': 62.94, 'quantity': 100}}, 'AMZN': {'data': {'name': 'AMZN', 'price': 588.96, 'quantity': 97}}, 'GOOGL': {'data': {'name': 'GOOGL', 'price': 996.18, 'quantity': 95}}, 'IBM': {'data': {'name': 'IBM', 'price': 273.87, 'quantity': 98}}, 'NVDA': {'data': {'name': 'NVDA', 'price': 714.65, 'quantity': 96}}, 'META': {'data': {'name': 'META', 'price': 113.46, 'quantity': 100}}, 'AMD': {'data': {'name': 'AMD', 'price': 904.61, 'quantity': 99}}, 'INTC': {'data': {'name': 'INTC', 'price': 951.97, 'quantity': 98}}}
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Order service replica 1 updated
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Elected Leader - 3
+Elected Leader - 3
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[DEBUG] Handle cache called for IBM
+[DEBUG] Cache HIT for IBM
+[Cache HIT] IBM
+[DEBUG] Returning cached data for IBM
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Order service replica 2 updated
+Elected Leader - 3
+Elected Leader - 3
+Cache - {'SAP': {'data': {'name': 'SAP', 'price': 170.55, 'quantity': 99}}, 'SHOP': {'data': {'name': 'SHOP', 'price': 62.94, 'quantity': 100}}, 'AMZN': {'data': {'name': 'AMZN', 'price': 588.96, 'quantity': 97}}, 'GOOGL': {'data': {'name': 'GOOGL', 'price': 996.18, 'quantity': 95}}, 'NVDA': {'data': {'name': 'NVDA', 'price': 714.65, 'quantity': 96}}, 'META': {'data': {'name': 'META', 'price': 113.46, 'quantity': 100}}, 'AMD': {'data': {'name': 'AMD', 'price': 904.61, 'quantity': 99}}, 'INTC': {'data': {'name': 'INTC', 'price': 951.97, 'quantity': 98}}, 'IBM': {'data': {'name': 'IBM', 'price': 273.87, 'quantity': 98}}}
+Invalidating Cache...
+[Cache INVALIDATE] Removed META
+Cache - {'SAP': {'data': {'name': 'SAP', 'price': 170.55, 'quantity': 99}}, 'SHOP': {'data': {'name': 'SHOP', 'price': 62.94, 'quantity': 100}}, 'AMZN': {'data': {'name': 'AMZN', 'price': 588.96, 'quantity': 97}}, 'GOOGL': {'data': {'name': 'GOOGL', 'price': 996.18, 'quantity': 95}}, 'NVDA': {'data': {'name': 'NVDA', 'price': 714.65, 'quantity': 96}}, 'AMD': {'data': {'name': 'AMD', 'price': 904.61, 'quantity': 99}}, 'INTC': {'data': {'name': 'INTC', 'price': 951.97, 'quantity': 98}}, 'IBM': {'data': {'name': 'IBM', 'price': 273.87, 'quantity': 98}}}
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[DEBUG] Handle cache called for SAP
+[DEBUG] Cache HIT for SAP
+[Cache HIT] SAP
+[DEBUG] Returning cached data for SAP
+[DEBUG] Handle cache called for AMZN
+[DEBUG] Cache HIT for AMZN
+[Cache HIT] AMZN
+[DEBUG] Returning cached data for AMZN
+Order service replica 1 updated
+Elected Leader - 3
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Elected Leader - 3
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+Order service replica 2 updated
+[DEBUG] Handle cache called for AMD
+[DEBUG] Cache HIT for AMD
+[Cache HIT] AMD
+[DEBUG] Returning cached data for AMD127.0.0.1 - - [05/May/2025 05:36:20] "GET /stocks/AMD HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:36:25] "GET /orders/77 HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:36:26] "GET /stocks/AMD HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:36:29] "GET /stocks/UBER HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:36:32] "GET /orders/78 HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:36:37] "GET /stocks/GOOGL HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:36:38] "GET /stocks/CSCO HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:36:39] "POST /orders HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:36:44] "GET /stocks/SHOP HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:36:45] "GET /stocks/AMD HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:36:46] "GET /stocks/MSFT HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:36:52] "GET /stocks/AMZN HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:36:56] "GET /stocks/CRM HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:36:58] "GET /orders/79 HTTP/1.1" 200 -
+
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+77
+localhost:50056
+Elected Leader - 3
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+exists: true
+transaction_id: 77
+stock_name: "SQ"
+order_type: "buy"
+quantity: 1
+
+Elected Leader - 3
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[DEBUG] Handle cache called for AMD
+[DEBUG] Cache HIT for AMD
+[Cache HIT] AMD
+[DEBUG] Returning cached data for AMD
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Elected Leader - 3
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[DEBUG] Handle cache called for UBER
+[DEBUG] Cache MISS for UBER
+[Cache MISS] UBER
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[DEBUG] gRPC catalog call for UBER took 0.93s
+Elected Leader - 3
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+Cache - {'SHOP': {'data': {'name': 'SHOP', 'price': 62.94, 'quantity': 100}}, 'GOOGL': {'data': {'name': 'GOOGL', 'price': 996.18, 'quantity': 95}}, 'NVDA': {'data': {'name': 'NVDA', 'price': 714.65, 'quantity': 96}}, 'INTC': {'data': {'name': 'INTC', 'price': 951.97, 'quantity': 98}}, 'IBM': {'data': {'name': 'IBM', 'price': 273.87, 'quantity': 98}}, 'SAP': {'data': {'name': 'SAP', 'price': 170.55, 'quantity': 99}}, 'AMZN': {'data': {'name': 'AMZN', 'price': 588.96, 'quantity': 97}}, 'AMD': {'data': {'name': 'AMD', 'price': 904.61, 'quantity': 99}}, 'UBER': {'data': {'name': 'UBER', 'price': 67.23, 'quantity': 90}}}
+Invalidating Cache...
+[Cache INVALIDATE] Removed AMZN
+Cache - {'SHOP': {'data': {'name': 'SHOP', 'price': 62.94, 'quantity': 100}}, 'GOOGL': {'data': {'name': 'GOOGL', 'price': 996.18, 'quantity': 95}}, 'NVDA': {'data': {'name': 'NVDA', 'price': 714.65, 'quantity': 96}}, 'INTC': {'data': {'name': 'INTC', 'price': 951.97, 'quantity': 98}}, 'IBM': {'data': {'name': 'IBM', 'price': 273.87, 'quantity': 98}}, 'SAP': {'data': {'name': 'SAP', 'price': 170.55, 'quantity': 99}}, 'AMD': {'data': {'name': 'AMD', 'price': 904.61, 'quantity': 99}}, 'UBER': {'data': {'name': 'UBER', 'price': 67.23, 'quantity': 90}}}
+78
+localhost:50056
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+exists: true
+transaction_id: 78
+stock_name: "META"
+order_type: "buy"
+quantity: 1
+
+Elected Leader - 3
+Elected Leader - 3
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Order service replica 1 updated
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[DEBUG] Handle cache called for CSCO
+[DEBUG] Cache MISS for CSCO
+[Cache MISS] CSCO
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[DEBUG] Handle cache called for GOOGL
+[DEBUG] Cache HIT for GOOGL
+[Cache HIT] GOOGL
+[DEBUG] Returning cached data for GOOGL
+[DEBUG] gRPC catalog call for CSCO took 2.17s
+Elected Leader - 3
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Elected Leader - 3
+Order service replica 2 updated
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+[DEBUG] Handle cache called for SHOP
+[DEBUG] Cache HIT for SHOP
+[Cache HIT] SHOP
+[DEBUG] Returning cached data for SHOP
+Elected Leader - 3
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[DEBUG] Handle cache called for MSFT
+[DEBUG] Cache MISS for MSFT
+[Cache MISS] MSFT
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[DEBUG] Handle cache called for AMD
+[DEBUG] Cache HIT for AMD
+[Cache HIT] AMD
+[DEBUG] Returning cached data for AMD
+[DEBUG] gRPC catalog call for MSFT took 0.81s
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Elected Leader - 3
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Elected Leader - 3
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[DEBUG] Handle cache called for AMZN
+[DEBUG] Cache MISS for AMZN
+[Cache MISS] AMZN
+Elected Leader - 3
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+[DEBUG] gRPC catalog call for AMZN took 1.47s
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[DEBUG] Handle cache called for CRM
+[DEBUG] Cache MISS for CRM
+[Cache MISS] CRM
+Elected Leader - 3
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+79
+localhost:50056
+Elected Leader - 3
+[DEBUG] gRPC catalog call for CRM took 2.88s
+exists: true
+transaction_id: 79
+stock_name: "AMZN"
+order_type: "buy"
+quantity: 1
+
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Elected Leader - 3
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[DEBUG] Handle cache called for TSLA
+[DEBUG] Cache MISS for TSLA
+[Cache MISS] TSLA
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+Cache - {'IBM': {'data': {'name': 'IBM', 'price': 273.87, 'quantity': 98}}, 'SAP': {'data': {'name': 'SAP', 'price': 170.55, 'quantity': 99}}, 'UBER': {'data': {'name': 'UBER', 'price': 67.23, 'quantity': 90}}, 'GOOGL': {'data': {'name': 'GOOGL', 'price': 996.18, 'quantity': 95}}, 'CSCO': {'data': {'name': 'CSCO', 'price': 48.12, 'quantity': 95}}, 'SHOP': {'data': {'name': 'SHOP', 'price': 62.94, 'quantity': 100}}, 'AMD': {'data': {'name': 'AMD', 'price': 904.61, 'quantity': 99}}, 'MSFT': {'data': {'name': 'MSFT', 'price': 675.76, 'quantity': 99}}, 'AMZN': {'data': {'name': 'AMZN', 'price': 588.96, 'quantity': 96}}, 'CRM': {'data': {'name': 'CRM', 'price': 510.64, 'quantity': 100}}}
+Invalidating Cache...
+[Cache INVALIDATE] Removed AMZN
+Cache - {'IBM': {'data': {'name': 'IBM', 'price': 273.87, 'quantity': 98}}, 'SAP': {'data': {'name': 'SAP', 'price': 170.55, 'quantity': 99}}, 'UBER': {'data': {'name': 'UBER', 'price': 67.23, 'quantity': 90}}, 'GOOGL': {'data': {'name': 'GOOGL', 'price': 996.18, 'quantity': 95}}, 'CSCO': {'data': {'name': 'CSCO', 'price': 48.12, 'quantity': 95}}, 'SHOP': {'data': {'name': 'SHOP', 'price': 62.94, 'quantity': 100}}, 'AMD': {'data': {'name': 'AMD', 'price': 904.61, 'quantity': 99}}, 'MSFT': {'data': {'name': 'MSFT', 'price': 675.76, 'quantity': 99}}, 'CRM': {'data': {'name': 'CRM', 'price': 510.64, 'quantity': 100}}}127.0.0.1 - - [05/May/2025 05:37:04] "GET /stocks/TSLA HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:37:13] "POST /orders HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:37:16] "POST /orders HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:37:17] "GET /stocks/NFLX HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:37:23] "GET /orders/80 HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:37:24] "POST /orders HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:37:32] "GET /orders/81 HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:37:33] "POST /orders HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:37:35] "GET /stocks/PYPL HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:37:34] "GET /orders/82 HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:37:36] "GET /stocks/NVDA HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:37:46] "GET /orders/83 HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:37:48] "GET /stocks/INTC HTTP/1.1" 200 -
+Cache - {'IBM': {'data': {'name': 'IBM', 'price': 273.87, 'quantity': 98}}, 'SAP': {'data': {'name': 'SAP', 'price': 170.55, 'quantity': 99}}, 'UBER': {'data': {'name': 'UBER', 'price': 67.23, 'quantity': 90}}, 'GOOGL': {'data': {'name': 'GOOGL', 'price': 996.18, 'quantity': 95}}, 'CSCO': {'data': {'name': 'CSCO', 'price': 48.12, 'quantity': 95}}, 'SHOP': {'data': {'name': 'SHOP', 'price': 62.94, 'quantity': 100}}, 'AMD': {'data': {'name': 'AMD', 'price': 904.61, 'quantity': 99}}, 'MSFT': {'data': {'name': 'MSFT', 'price': 675.76, 'quantity': 99}}, 'CRM': {'data': {'name': 'CRM', 'price': 510.64, 'quantity': 100}}}
+Invalidating Cache...
+[Cache INVALIDATE] Removed MSFT
+Cache - {'IBM': {'data': {'name': 'IBM', 'price': 273.87, 'quantity': 98}}, 'SAP': {'data': {'name': 'SAP', 'price': 170.55, 'quantity': 99}}, 'UBER': {'data': {'name': 'UBER', 'price': 67.23, 'quantity': 90}}, 'GOOGL': {'data': {'name': 'GOOGL', 'price': 996.18, 'quantity': 95}}, 'CSCO': {'data': {'name': 'CSCO', 'price': 48.12, 'quantity': 95}}, 'SHOP': {'data': {'name': 'SHOP', 'price': 62.94, 'quantity': 100}}, 'AMD': {'data': {'name': 'AMD', 'price': 904.61, 'quantity': 99}}, 'CRM': {'data': {'name': 'CRM', 'price': 510.64, 'quantity': 100}}}
+[DEBUG] gRPC catalog call for TSLA took 1.98s
+
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Order service replica 1 updated
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Elected Leader - 3
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Elected Leader - 3
+Elected Leader - 3
+Order service replica 2 updated
+Order service replica 1 updated
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+Cache - {'IBM': {'data': {'name': 'IBM', 'price': 273.87, 'quantity': 98}}, 'SAP': {'data': {'name': 'SAP', 'price': 170.55, 'quantity': 99}}, 'UBER': {'data': {'name': 'UBER', 'price': 67.23, 'quantity': 90}}, 'GOOGL': {'data': {'name': 'GOOGL', 'price': 996.18, 'quantity': 95}}, 'CSCO': {'data': {'name': 'CSCO', 'price': 48.12, 'quantity': 95}}, 'SHOP': {'data': {'name': 'SHOP', 'price': 62.94, 'quantity': 100}}, 'AMD': {'data': {'name': 'AMD', 'price': 904.61, 'quantity': 99}}, 'CRM': {'data': {'name': 'CRM', 'price': 510.64, 'quantity': 100}}, 'TSLA': {'data': {'name': 'TSLA', 'price': 104.9, 'quantity': 96}}}
+Invalidating Cache...
+[Cache INVALIDATE] Removed CRM
+Cache - {'IBM': {'data': {'name': 'IBM', 'price': 273.87, 'quantity': 98}}, 'SAP': {'data': {'name': 'SAP', 'price': 170.55, 'quantity': 99}}, 'UBER': {'data': {'name': 'UBER', 'price': 67.23, 'quantity': 90}}, 'GOOGL': {'data': {'name': 'GOOGL', 'price': 996.18, 'quantity': 95}}, 'CSCO': {'data': {'name': 'CSCO', 'price': 48.12, 'quantity': 95}}, 'SHOP': {'data': {'name': 'SHOP', 'price': 62.94, 'quantity': 100}}, 'AMD': {'data': {'name': 'AMD', 'price': 904.61, 'quantity': 99}}, 'TSLA': {'data': {'name': 'TSLA', 'price': 104.9, 'quantity': 96}}}
+Order service replica 2 updated
+[DEBUG] Handle cache called for NFLX
+[DEBUG] Cache MISS for NFLX
+[Cache MISS] NFLX
+[DEBUG] gRPC catalog call for NFLX took 0.28s
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Cache - {'IBM': {'data': {'name': 'IBM', 'price': 273.87, 'quantity': 98}}, 'SAP': {'data': {'name': 'SAP', 'price': 170.55, 'quantity': 99}}, 'UBER': {'data': {'name': 'UBER', 'price': 67.23, 'quantity': 90}}, 'GOOGL': {'data': {'name': 'GOOGL', 'price': 996.18, 'quantity': 95}}, 'CSCO': {'data': {'name': 'CSCO', 'price': 48.12, 'quantity': 95}}, 'SHOP': {'data': {'name': 'SHOP', 'price': 62.94, 'quantity': 100}}, 'AMD': {'data': {'name': 'AMD', 'price': 904.61, 'quantity': 99}}, 'TSLA': {'data': {'name': 'TSLA', 'price': 104.9, 'quantity': 96}}, 'NFLX': {'data': {'name': 'NFLX', 'price': 53.94, 'quantity': 98}}}
+Invalidating Cache...
+[Cache INVALIDATE] Removed TSLA
+Cache - {'IBM': {'data': {'name': 'IBM', 'price': 273.87, 'quantity': 98}}, 'SAP': {'data': {'name': 'SAP', 'price': 170.55, 'quantity': 99}}, 'UBER': {'data': {'name': 'UBER', 'price': 67.23, 'quantity': 90}}, 'GOOGL': {'data': {'name': 'GOOGL', 'price': 996.18, 'quantity': 95}}, 'CSCO': {'data': {'name': 'CSCO', 'price': 48.12, 'quantity': 95}}, 'SHOP': {'data': {'name': 'SHOP', 'price': 62.94, 'quantity': 100}}, 'AMD': {'data': {'name': 'AMD', 'price': 904.61, 'quantity': 99}}, 'NFLX': {'data': {'name': 'NFLX', 'price': 53.94, 'quantity': 98}}}
+Elected Leader - 3
+Order service replica 1 updated
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+80
+localhost:50056
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+exists: true
+transaction_id: 80
+stock_name: "MSFT"
+order_type: "buy"
+quantity: 1
+
+Elected Leader - 3
+Elected Leader - 3
+Order service replica 1 updated
+Order service replica 2 updated
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+Elected Leader - 3
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Elected Leader - 3
+81
+localhost:50056
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+82
+localhost:50056
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+exists: true
+transaction_id: 81
+stock_name: "AMZN"
+order_type: "buy"
+quantity: 1
+
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+Order service replica 2 updated
+[DEBUG] Handle cache called for PYPL
+[DEBUG] Cache MISS for PYPL
+[Cache MISS] PYPL
+exists: true
+transaction_id: 82
+stock_name: "CRM"
+order_type: "buy"
+quantity: 1
+
+[DEBUG] Handle cache called for NVDA
+[DEBUG] Cache MISS for NVDA
+[Cache MISS] NVDA
+[DEBUG] gRPC catalog call for PYPL took 1.26s
+[DEBUG] gRPC catalog call for NVDA took 1.24s
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Elected Leader - 3
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+83
+localhost:50056
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Elected Leader - 3
+Elected Leader - 3
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+exists: true
+transaction_id: 83
+stock_name: "TSLA"
+order_type: "buy"
+quantity: 1
+
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[DEBUG] Handle cache called for INTC
+[DEBUG] Cache MISS for INTC
+[Cache MISS] INTC
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[DEBUG] Handle cache called for MSFT
+[DEBUG] Cache MISS for MSFT
+[Cache MISS] MSFT
+[DEBUG] gRPC catalog call for INTC took 1.43s
+Elected Leader - 3
+[DEBUG] gRPC catalog call for MSFT took 1.72s127.0.0.1 - - [05/May/2025 05:37:49] "GET /stocks/MSFT HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:37:53] "GET /stocks/MSFT HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:37:59] "GET /stocks/SHOP HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:37:59] "GET /stocks/UBER HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:38:07] "GET /stocks/PYPL HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:38:11] "GET /stocks/GOOGL HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:38:11] "POST /orders HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:38:14] "GET /stocks/AAPL HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:38:25] "POST /orders HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:38:25] "GET /orders/84 HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:38:26] "GET /stocks/META HTTP/1.1" 200 -
+
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+[DEBUG] Handle cache called for MSFT
+[DEBUG] Cache HIT for MSFT
+[Cache HIT] MSFT
+[DEBUG] Returning cached data for MSFT
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Elected Leader - 3
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Elected Leader - 3
+Elected Leader - 3
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[DEBUG] Handle cache called for SHOP
+[DEBUG] Cache HIT for SHOP
+[Cache HIT] SHOP
+[DEBUG] Returning cached data for SHOP
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[DEBUG] Handle cache called for UBER
+[DEBUG] Cache HIT for UBER
+[Cache HIT] UBER
+[DEBUG] Returning cached data for UBER
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+Elected Leader - 3
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Cache - {'GOOGL': {'data': {'name': 'GOOGL', 'price': 996.18, 'quantity': 95}}, 'CSCO': {'data': {'name': 'CSCO', 'price': 48.12, 'quantity': 95}}, 'AMD': {'data': {'name': 'AMD', 'price': 904.61, 'quantity': 99}}, 'NFLX': {'data': {'name': 'NFLX', 'price': 53.94, 'quantity': 98}}, 'PYPL': {'data': {'name': 'PYPL', 'price': 102.67, 'quantity': 98}}, 'NVDA': {'data': {'name': 'NVDA', 'price': 714.65, 'quantity': 96}}, 'INTC': {'data': {'name': 'INTC', 'price': 951.97, 'quantity': 98}}, 'MSFT': {'data': {'name': 'MSFT', 'price': 675.76, 'quantity': 98}}, 'SHOP': {'data': {'name': 'SHOP', 'price': 62.94, 'quantity': 100}}, 'UBER': {'data': {'name': 'UBER', 'price': 67.23, 'quantity': 90}}}
+Invalidating Cache...
+[Cache INVALIDATE] Removed NVDA
+Cache - {'GOOGL': {'data': {'name': 'GOOGL', 'price': 996.18, 'quantity': 95}}, 'CSCO': {'data': {'name': 'CSCO', 'price': 48.12, 'quantity': 95}}, 'AMD': {'data': {'name': 'AMD', 'price': 904.61, 'quantity': 99}}, 'NFLX': {'data': {'name': 'NFLX', 'price': 53.94, 'quantity': 98}}, 'PYPL': {'data': {'name': 'PYPL', 'price': 102.67, 'quantity': 98}}, 'INTC': {'data': {'name': 'INTC', 'price': 951.97, 'quantity': 98}}, 'MSFT': {'data': {'name': 'MSFT', 'price': 675.76, 'quantity': 98}}, 'SHOP': {'data': {'name': 'SHOP', 'price': 62.94, 'quantity': 100}}, 'UBER': {'data': {'name': 'UBER', 'price': 67.23, 'quantity': 90}}}
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Order service replica 1 updated
+Elected Leader - 3
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[DEBUG] Handle cache called for PYPL
+[DEBUG] Cache HIT for PYPL
+[Cache HIT] PYPL
+[DEBUG] Returning cached data for PYPL
+Elected Leader - 3
+Elected Leader - 3
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[DEBUG] Handle cache called for GOOGL
+[DEBUG] Cache HIT for GOOGL
+[Cache HIT] GOOGL
+[DEBUG] Returning cached data for GOOGL
+Order service replica 2 updated
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[DEBUG] Handle cache called for AAPL
+[DEBUG] Cache MISS for AAPL
+[Cache MISS] AAPL
+[DEBUG] gRPC catalog call for AAPL took 2.35s
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Cache - {'CSCO': {'data': {'name': 'CSCO', 'price': 48.12, 'quantity': 95}}, 'AMD': {'data': {'name': 'AMD', 'price': 904.61, 'quantity': 99}}, 'NFLX': {'data': {'name': 'NFLX', 'price': 53.94, 'quantity': 98}}, 'INTC': {'data': {'name': 'INTC', 'price': 951.97, 'quantity': 98}}, 'MSFT': {'data': {'name': 'MSFT', 'price': 675.76, 'quantity': 98}}, 'SHOP': {'data': {'name': 'SHOP', 'price': 62.94, 'quantity': 100}}, 'UBER': {'data': {'name': 'UBER', 'price': 67.23, 'quantity': 90}}, 'PYPL': {'data': {'name': 'PYPL', 'price': 102.67, 'quantity': 98}}, 'GOOGL': {'data': {'name': 'GOOGL', 'price': 996.18, 'quantity': 95}}, 'AAPL': {'data': {'name': 'AAPL', 'price': 100.13, 'quantity': 73}}}
+Invalidating Cache...
+[Cache INVALIDATE] Removed UBER
+Cache - {'CSCO': {'data': {'name': 'CSCO', 'price': 48.12, 'quantity': 95}}, 'AMD': {'data': {'name': 'AMD', 'price': 904.61, 'quantity': 99}}, 'NFLX': {'data': {'name': 'NFLX', 'price': 53.94, 'quantity': 98}}, 'INTC': {'data': {'name': 'INTC', 'price': 951.97, 'quantity': 98}}, 'MSFT': {'data': {'name': 'MSFT', 'price': 675.76, 'quantity': 98}}, 'SHOP': {'data': {'name': 'SHOP', 'price': 62.94, 'quantity': 100}}, 'PYPL': {'data': {'name': 'PYPL', 'price': 102.67, 'quantity': 98}}, 'GOOGL': {'data': {'name': 'GOOGL', 'price': 996.18, 'quantity': 95}}, 'AAPL': {'data': {'name': 'AAPL', 'price': 100.13, 'quantity': 73}}}
+Elected Leader - 3
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Order service replica 1 updated
+Elected Leader - 3
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Elected Leader - 3
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+84
+localhost:50056
+[DEBUG] Handle cache called for META
+[DEBUG] Cache MISS for META
+[Cache MISS] META
+Order service replica 2 updated
+exists: true
+transaction_id: 84
+stock_name: "NVDA"
+order_type: "buy"
+quantity: 1
+
+[DEBUG] gRPC catalog call for META took 2.28s
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+Elected Leader - 3
+Cache - {'CSCO': {'data': {'name': 'CSCO', 'price': 48.12, 'quantity': 95}}, 'AMD': {'data': {'name': 'AMD', 'price': 904.61, 'quantity': 99}}, 'NFLX': {'data': {'name': 'NFLX', 'price': 53.94, 'quantity': 98}}, 'INTC': {'data': {'name': 'INTC', 'price': 951.97, 'quantity': 98}}, 'MSFT': {'data': {'name': 'MSFT', 'price': 675.76, 'quantity': 98}}, 'SHOP': {'data': {'name': 'SHOP', 'price': 62.94, 'quantity': 100}}, 'PYPL': {'data': {'name': 'PYPL', 'price': 102.67, 'quantity': 98}}, 'GOOGL': {'data': {'name': 'GOOGL', 'price': 996.18, 'quantity': 95}}, 'AAPL': {'data': {'name': 'AAPL', 'price': 100.13, 'quantity': 73}}, 'META': {'data': {'name': 'META', 'price': 113.46, 'quantity': 99}}}
+Invalidating Cache...
+[Cache INVALIDATE] Removed GOOGL
+Cache - {'CSCO': {'data': {'name': 'CSCO', 'price': 48.12, 'quantity': 95}}, 'AMD': {'data': {'name': 'AMD', 'price': 904.61, 'quantity': 99}}, 'NFLX': {'data': {'name': 'NFLX', 'price': 53.94, 'quantity': 98}}, 'INTC': {'data': {'name': 'INTC', 'price': 951.97, 'quantity': 98}}, 'MSFT': {'data': {'name': 'MSFT', 'price': 675.76, 'quantity': 98}}, 'SHOP': {'data': {'name': 'SHOP', 'price': 62.94, 'quantity': 100}}, 'PYPL': {'data': {'name': 'PYPL', 'price': 102.67, 'quantity': 98}}, 'AAPL': {'data': {'name': 'AAPL', 'price': 100.13, 'quantity': 73}}, 'META': {'data': {'name': 'META', 'price': 113.46, 'quantity': 99}}}127.0.0.1 - - [05/May/2025 05:38:32] "GET /stocks/PYPL HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:38:37] "POST /orders HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:38:44] "GET /orders/85 HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:38:44] "GET /stocks/AAPL HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:38:50] "GET /stocks/CSCO HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:39:01] "GET /stocks/PYPL HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:39:01] "GET /stocks/ORCL HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:39:02] "GET /orders/86 HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:39:02] "POST /orders HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:39:15] "GET /stocks/MSFT HTTP/1.1" 200 -
+
+Order service replica 1 updated
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[DEBUG] Handle cache called for PYPL
+[DEBUG] Cache HIT for PYPL
+[Cache HIT] PYPL
+[DEBUG] Returning cached data for PYPL
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Order service replica 2 updated
+Elected Leader - 3
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Elected Leader - 3
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+85
+localhost:50056
+Elected Leader - 3
+exists: true
+transaction_id: 85
+stock_name: "UBER"
+order_type: "buy"
+quantity: 1
+
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[DEBUG] Handle cache called for AAPL
+[DEBUG] Cache HIT for AAPL
+[Cache HIT] AAPL
+[DEBUG] Returning cached data for AAPL
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Elected Leader - 3
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+[DEBUG] Handle cache called for CSCO
+[DEBUG] Cache HIT for CSCO
+[Cache HIT] CSCO
+[DEBUG] Returning cached data for CSCO
+Elected Leader - 3
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Elected Leader - 3
+Elected Leader - 3
+Cache - {'AMD': {'data': {'name': 'AMD', 'price': 904.61, 'quantity': 99}}, 'NFLX': {'data': {'name': 'NFLX', 'price': 53.94, 'quantity': 98}}, 'INTC': {'data': {'name': 'INTC', 'price': 951.97, 'quantity': 98}}, 'MSFT': {'data': {'name': 'MSFT', 'price': 675.76, 'quantity': 98}}, 'SHOP': {'data': {'name': 'SHOP', 'price': 62.94, 'quantity': 100}}, 'META': {'data': {'name': 'META', 'price': 113.46, 'quantity': 99}}, 'PYPL': {'data': {'name': 'PYPL', 'price': 102.67, 'quantity': 98}}, 'AAPL': {'data': {'name': 'AAPL', 'price': 100.13, 'quantity': 73}}, 'CSCO': {'data': {'name': 'CSCO', 'price': 48.12, 'quantity': 95}}}
+Invalidating Cache...
+[Cache INVALIDATE] Removed PYPL
+Cache - {'AMD': {'data': {'name': 'AMD', 'price': 904.61, 'quantity': 99}}, 'NFLX': {'data': {'name': 'NFLX', 'price': 53.94, 'quantity': 98}}, 'INTC': {'data': {'name': 'INTC', 'price': 951.97, 'quantity': 98}}, 'MSFT': {'data': {'name': 'MSFT', 'price': 675.76, 'quantity': 98}}, 'SHOP': {'data': {'name': 'SHOP', 'price': 62.94, 'quantity': 100}}, 'META': {'data': {'name': 'META', 'price': 113.46, 'quantity': 99}}, 'AAPL': {'data': {'name': 'AAPL', 'price': 100.13, 'quantity': 73}}, 'CSCO': {'data': {'name': 'CSCO', 'price': 48.12, 'quantity': 95}}}
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[DEBUG] Handle cache called for PYPL
+[DEBUG] Cache MISS for PYPL
+[Cache MISS] PYPL
+Order service replica 1 updated
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[DEBUG] Handle cache called for ORCL
+[DEBUG] Cache MISS for ORCL
+[Cache MISS] ORCL
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+[DEBUG] gRPC catalog call for PYPL took 5.44s
+86
+localhost:50056
+[DEBUG] gRPC catalog call for ORCL took 2.28s
+Order service replica 2 updated
+exists: true
+transaction_id: 86
+stock_name: "GOOGL"
+order_type: "buy"
+quantity: 1
+
+Elected Leader - 3
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Cache - {'AMD': {'data': {'name': 'AMD', 'price': 904.61, 'quantity': 99}}, 'NFLX': {'data': {'name': 'NFLX', 'price': 53.94, 'quantity': 98}}, 'INTC': {'data': {'name': 'INTC', 'price': 951.97, 'quantity': 98}}, 'MSFT': {'data': {'name': 'MSFT', 'price': 675.76, 'quantity': 98}}, 'SHOP': {'data': {'name': 'SHOP', 'price': 62.94, 'quantity': 100}}, 'META': {'data': {'name': 'META', 'price': 113.46, 'quantity': 99}}, 'AAPL': {'data': {'name': 'AAPL', 'price': 100.13, 'quantity': 73}}, 'CSCO': {'data': {'name': 'CSCO', 'price': 48.12, 'quantity': 95}}, 'PYPL': {'data': {'name': 'PYPL', 'price': 102.67, 'quantity': 97}}, 'ORCL': {'data': {'name': 'ORCL', 'price': 785.49, 'quantity': 97}}}
+Invalidating Cache...
+[Cache INVALIDATE] Removed CSCO
+Cache - {'AMD': {'data': {'name': 'AMD', 'price': 904.61, 'quantity': 99}}, 'NFLX': {'data': {'name': 'NFLX', 'price': 53.94, 'quantity': 98}}, 'INTC': {'data': {'name': 'INTC', 'price': 951.97, 'quantity': 98}}, 'MSFT': {'data': {'name': 'MSFT', 'price': 675.76, 'quantity': 98}}, 'SHOP': {'data': {'name': 'SHOP', 'price': 62.94, 'quantity': 100}}, 'META': {'data': {'name': 'META', 'price': 113.46, 'quantity': 99}}, 'AAPL': {'data': {'name': 'AAPL', 'price': 100.13, 'quantity': 73}}, 'PYPL': {'data': {'name': 'PYPL', 'price': 102.67, 'quantity': 97}}, 'ORCL': {'data': {'name': 'ORCL', 'price': 785.49, 'quantity': 97}}}
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Elected Leader - 3
+Elected Leader - 3
+Elected Leader - 3
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[DEBUG] Handle cache called for MSFT
+[DEBUG] Cache HIT for MSFT
+[Cache HIT] MSFT
+[DEBUG] Returning cached data for MSFT
+Order service replica 1 updated
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Elected Leader - 3
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[DEBUG] Handle cache called for TSLA
+[DEBUG] Cache MISS for TSLA
+[Cache MISS] TSLA
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Cache - {'AMD': {'data': {'name': 'AMD', 'price': 904.61, 'quantity': 99}}, 'NFLX': {'data': {'name': 'NFLX', 'price': 53.94, 'quantity': 98}}, 'INTC': {'data': {'name': 'INTC', 'price': 951.97, 'quantity': 98}}, 'SHOP': {'data': {'name': 'SHOP', 'price': 62.94, 'quantity': 100}}, 'META': {'data': {'name': 'META', 'price': 113.46, 'quantity': 99}}, 'AAPL': {'data': {'name': 'AAPL', 'price': 100.13, 'quantity': 73}}, 'PYPL': {'data': {'name': 'PYPL', 'price': 102.67, 'quantity': 97}}, 'ORCL': {'data': {'name': 'ORCL', 'price': 785.49, 'quantity': 97}}, 'MSFT': {'data': {'name': 'MSFT', 'price': 675.76, 'quantity': 98}}}
+Invalidating Cache...
+[Cache INVALIDATE] Removed PYPL
+Cache - {'AMD': {'data': {'name': 'AMD', 'price': 904.61, 'quantity': 99}}, 'NFLX': {'data': {'name': 'NFLX', 'price': 53.94, 'quantity': 98}}, 'INTC': {'data': {'name': 'INTC', 'price': 951.97, 'quantity': 98}}, 'SHOP': {'data': {'name': 'SHOP', 'price': 62.94, 'quantity': 100}}, 'META': {'data': {'name': 'META', 'price': 113.46, 'quantity': 99}}, 'AAPL': {'data': {'name': 'AAPL', 'price': 100.13, 'quantity': 73}}, 'ORCL': {'data': {'name': 'ORCL', 'price': 785.49, 'quantity': 97}}, 'MSFT': {'data': {'name': 'MSFT', 'price': 675.76, 'quantity': 98}}}127.0.0.1 - - [05/May/2025 05:39:22] "GET /stocks/TSLA HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:39:22] "POST /orders HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:39:27] "GET /orders/87 HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:39:29] "POST /orders HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:39:30] "GET /stocks/AAPL HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:39:45] "GET /orders/89 HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:39:46] "GET /orders/88 HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:39:47] "GET /stocks/IBM HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:40:02] "GET /stocks/CSCO HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:40:32] "POST /orders HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:40:49] "GET /orders/90 HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:41:11] "GET /stocks/SHOP HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:41:39] "POST /orders HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:42:01] "GET /orders/91 HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:42:14] "GET /stocks/INTC HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:42:29] "GET /stocks/META HTTP/1.1" 200 -
+
+[DEBUG] gRPC catalog call for TSLA took 1.83s
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+Order service replica 2 updated
+87
+localhost:50056
+Elected Leader - 3
+Order service replica 1 updated
+exists: true
+transaction_id: 87
+stock_name: "PYPL"
+order_type: "buy"
+quantity: 1
+
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Order service replica 2 updated
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[DEBUG] Handle cache called for AAPL
+[DEBUG] Cache HIT for AAPL
+[Cache HIT] AAPL
+[DEBUG] Returning cached data for AAPL
+Elected Leader - 3
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Elected Leader - 3
+Elected Leader - 3
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+89
+localhost:50056
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[DEBUG] Handle cache called for IBM
+[DEBUG] Cache MISS for IBM
+[Cache MISS] IBM
+88
+localhost:50056
+exists: true
+transaction_id: 89
+stock_name: "PYPL"
+order_type: "buy"
+quantity: 1
+
+exists: true
+transaction_id: 88
+stock_name: "CSCO"
+order_type: "buy"
+quantity: 1
+
+[DEBUG] gRPC catalog call for IBM took 2.84s
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Elected Leader - 3
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[DEBUG] Handle cache called for CSCO
+[DEBUG] Cache MISS for CSCO
+[Cache MISS] CSCO
+[DEBUG] gRPC catalog call for CSCO took 4.06s
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Elected Leader - 3
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+Cache - {'NFLX': {'data': {'name': 'NFLX', 'price': 53.94, 'quantity': 98}}, 'INTC': {'data': {'name': 'INTC', 'price': 951.97, 'quantity': 98}}, 'SHOP': {'data': {'name': 'SHOP', 'price': 62.94, 'quantity': 100}}, 'META': {'data': {'name': 'META', 'price': 113.46, 'quantity': 99}}, 'ORCL': {'data': {'name': 'ORCL', 'price': 785.49, 'quantity': 97}}, 'MSFT': {'data': {'name': 'MSFT', 'price': 675.76, 'quantity': 98}}, 'TSLA': {'data': {'name': 'TSLA', 'price': 104.9, 'quantity': 95}}, 'AAPL': {'data': {'name': 'AAPL', 'price': 100.13, 'quantity': 73}}, 'IBM': {'data': {'name': 'IBM', 'price': 273.87, 'quantity': 98}}, 'CSCO': {'data': {'name': 'CSCO', 'price': 48.12, 'quantity': 94}}}
+Invalidating Cache...
+[Cache INVALIDATE] Removed CSCO
+Cache - {'NFLX': {'data': {'name': 'NFLX', 'price': 53.94, 'quantity': 98}}, 'INTC': {'data': {'name': 'INTC', 'price': 951.97, 'quantity': 98}}, 'SHOP': {'data': {'name': 'SHOP', 'price': 62.94, 'quantity': 100}}, 'META': {'data': {'name': 'META', 'price': 113.46, 'quantity': 99}}, 'ORCL': {'data': {'name': 'ORCL', 'price': 785.49, 'quantity': 97}}, 'MSFT': {'data': {'name': 'MSFT', 'price': 675.76, 'quantity': 98}}, 'TSLA': {'data': {'name': 'TSLA', 'price': 104.9, 'quantity': 95}}, 'AAPL': {'data': {'name': 'AAPL', 'price': 100.13, 'quantity': 73}}, 'IBM': {'data': {'name': 'IBM', 'price': 273.87, 'quantity': 98}}}
+Order service replica 1 updated
+Order service replica 2 updated
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Elected Leader - 3
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+90
+localhost:50056
+exists: true
+transaction_id: 90
+stock_name: "CSCO"
+order_type: "buy"
+quantity: 1
+
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Elected Leader - 3
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[DEBUG] Handle cache called for SHOP
+[DEBUG] Cache HIT for SHOP
+[Cache HIT] SHOP
+[DEBUG] Returning cached data for SHOP
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Elected Leader - 3
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+Cache - {'NFLX': {'data': {'name': 'NFLX', 'price': 53.94, 'quantity': 98}}, 'INTC': {'data': {'name': 'INTC', 'price': 951.97, 'quantity': 98}}, 'META': {'data': {'name': 'META', 'price': 113.46, 'quantity': 99}}, 'ORCL': {'data': {'name': 'ORCL', 'price': 785.49, 'quantity': 97}}, 'MSFT': {'data': {'name': 'MSFT', 'price': 675.76, 'quantity': 98}}, 'TSLA': {'data': {'name': 'TSLA', 'price': 104.9, 'quantity': 95}}, 'AAPL': {'data': {'name': 'AAPL', 'price': 100.13, 'quantity': 73}}, 'IBM': {'data': {'name': 'IBM', 'price': 273.87, 'quantity': 98}}, 'SHOP': {'data': {'name': 'SHOP', 'price': 62.94, 'quantity': 100}}}
+Invalidating Cache...
+[Cache INVALIDATE] Removed SHOP
+Cache - {'NFLX': {'data': {'name': 'NFLX', 'price': 53.94, 'quantity': 98}}, 'INTC': {'data': {'name': 'INTC', 'price': 951.97, 'quantity': 98}}, 'META': {'data': {'name': 'META', 'price': 113.46, 'quantity': 99}}, 'ORCL': {'data': {'name': 'ORCL', 'price': 785.49, 'quantity': 97}}, 'MSFT': {'data': {'name': 'MSFT', 'price': 675.76, 'quantity': 98}}, 'TSLA': {'data': {'name': 'TSLA', 'price': 104.9, 'quantity': 95}}, 'AAPL': {'data': {'name': 'AAPL', 'price': 100.13, 'quantity': 73}}, 'IBM': {'data': {'name': 'IBM', 'price': 273.87, 'quantity': 98}}}
+Order service replica 1 updated
+Order service replica 2 updated
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Elected Leader - 3
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+91
+localhost:50056
+exists: true
+transaction_id: 91
+stock_name: "SHOP"
+order_type: "buy"
+quantity: 1
+
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Elected Leader - 3
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[DEBUG] Handle cache called for INTC
+[DEBUG] Cache HIT for INTC
+[Cache HIT] INTC
+[DEBUG] Returning cached data for INTC
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Elected Leader - 3
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[DEBUG] Handle cache called for META
+[DEBUG] Cache HIT for META
+[Cache HIT] META
+[DEBUG] Returning cached data for META
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Elected Leader - 3
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+Cache - {'NFLX': {'data': {'name': 'NFLX', 'price': 53.94, 'quantity': 98}}, 'ORCL': {'data': {'name': 'ORCL', 'price': 785.49, 'quantity': 97}}, 'MSFT': {'data': {'name': 'MSFT', 'price': 675.76, 'quantity': 98}}, 'TSLA': {'data': {'name': 'TSLA', 'price': 104.9, 'quantity': 95}}, 'AAPL': {'data': {'name': 'AAPL', 'price': 100.13, 'quantity': 73}}, 'IBM': {'data': {'name': 'IBM', 'price': 273.87, 'quantity': 98}}, 'INTC': {'data': {'name': 'INTC', 'price': 951.97, 'quantity': 98}}, 'META': {'data': {'name': 'META', 'price': 113.46, 'quantity': 99}}}127.0.0.1 - - [05/May/2025 05:42:55] "POST /orders HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2025 05:43:10] "GET /orders/92 HTTP/1.1" 200 -

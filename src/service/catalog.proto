@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+service CatalogService {
+  rpc LookupStock (LookupRequest) returns (LookupResponse);
+  rpc UpdateStock (UpdateRequest) returns (UpdateResponse);
+}
+
+message LookupRequest {
+  string name = 1;
+}
+
+message LookupResponse {
+  bool exists = 1;
+  string name = 2;
+  double price = 3;
+  int32 quantity = 4;
+}
+
+message UpdateRequest {
+  string name = 1;
+  int32 quantity_change = 2;  
+}
+
+message UpdateResponse {
+  bool success = 1;
+  string message = 2;
+  int32 new_quantity = 3;
+}

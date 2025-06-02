@@ -1,0 +1,16 @@
+
+[TEST] Query Stock: AAPL
+GET /stocks/AAPL - Status Code: 200
+Response: {'data': {'name': 'AAPL', 'price': 100.13, 'quantity': 81}}
+
+[TEST] Place Order: Buy 2 of AAPL
+POST /orders - Status Code: 200
+Response: {'data': {'transaction_id': 25}}
+
+[TEST] Lookup Order: transaction_id=25
+GET /orders/25 - Status Code: 200
+Response: {'data': {'transaction_id': 25, 'name': 'AAPL', 'type': 'buy', 'quantity': 2}}
+
+[TEST] Lookup Order: transaction_id=1200
+GET /orders/1200 - Status Code: 404
+Response: {'error': {'code': 404, 'message': 'Order not found'}}

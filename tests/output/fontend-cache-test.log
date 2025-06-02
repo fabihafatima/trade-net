@@ -1,0 +1,340 @@
+127.0.0.1 - - [04/May/2025 23:17:49] "GET /stocks/AMZN HTTP/1.1" 200 -
+127.0.0.1 - - [04/May/2025 23:17:54] "GET /stocks/GOOGL HTTP/1.1" 200 -
+127.0.0.1 - - [04/May/2025 23:17:57] "GET /stocks/GOOGL HTTP/1.1" 200 -
+127.0.0.1 - - [04/May/2025 23:17:57] "GET /stocks/AMZN HTTP/1.1" 200 -
+127.0.0.1 - - [04/May/2025 23:18:00] "GET /stocks/AMZN HTTP/1.1" 200 -
+127.0.0.1 - - [04/May/2025 23:18:04] "POST /orders HTTP/1.1" 200 -
+[Cache MISS] AMZN
+
+Stock Details - {'data': {'name': 'AMZN', 'price': 588.96, 'quantity': 100}}
+Cache - {'SAP': {'data': {'name': 'SAP', 'price': 170.55, 'quantity': 100}}, 'META': {'data': {'name': 'META', 'price': 113.46, 'quantity': 100}}, 'NVDA': {'data': {'name': 'NVDA', 'price': 714.65, 'quantity': 100}}, 'IBM': {'data': {'name': 'IBM', 'price': 273.87, 'quantity': 100}}, 'AMD': {'data': {'name': 'AMD', 'price': 904.61, 'quantity': 100}}, 'NFLX': {'data': {'name': 'NFLX', 'price': 53.94, 'quantity': 100}}, 'UBER': {'data': {'name': 'UBER', 'price': 67.23, 'quantity': 100}}, 'AAPL': {'data': {'name': 'AAPL', 'price': 100.13, 'quantity': 79}}, 'GOOGL': {'data': {'name': 'GOOGL', 'price': 996.18, 'quantity': 98}}, 'AMZN': {'data': {'name': 'AMZN', 'price': 588.96, 'quantity': 100}}}
+Leader election started
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Elected Leader - 3
+Leader election started
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+Cache - {'SAP': {'data': {'name': 'SAP', 'price': 170.55, 'quantity': 100}}, 'META': {'data': {'name': 'META', 'price': 113.46, 'quantity': 100}}, 'NVDA': {'data': {'name': 'NVDA', 'price': 714.65, 'quantity': 100}}, 'IBM': {'data': {'name': 'IBM', 'price': 273.87, 'quantity': 100}}, 'AMD': {'data': {'name': 'AMD', 'price': 904.61, 'quantity': 100}}, 'NFLX': {'data': {'name': 'NFLX', 'price': 53.94, 'quantity': 100}}, 'UBER': {'data': {'name': 'UBER', 'price': 67.23, 'quantity': 100}}, 'AAPL': {'data': {'name': 'AAPL', 'price': 100.13, 'quantity': 79}}, 'GOOGL': {'data': {'name': 'GOOGL', 'price': 996.18, 'quantity': 98}}, 'AMZN': {'data': {'name': 'AMZN', 'price': 588.96, 'quantity': 100}}}
+[Cache HIT] GOOGL
+Elected Leader - 3
+Leader election started
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Elected Leader - 3
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+Cache - {'SAP': {'data': {'name': 'SAP', 'price': 170.55, 'quantity': 100}}, 'META': {'data': {'name': 'META', 'price': 113.46, 'quantity': 100}}, 'NVDA': {'data': {'name': 'NVDA', 'price': 714.65, 'quantity': 100}}, 'IBM': {'data': {'name': 'IBM', 'price': 273.87, 'quantity': 100}}, 'AMD': {'data': {'name': 'AMD', 'price': 904.61, 'quantity': 100}}, 'NFLX': {'data': {'name': 'NFLX', 'price': 53.94, 'quantity': 100}}, 'UBER': {'data': {'name': 'UBER', 'price': 67.23, 'quantity': 100}}, 'AAPL': {'data': {'name': 'AAPL', 'price': 100.13, 'quantity': 79}}, 'AMZN': {'data': {'name': 'AMZN', 'price': 588.96, 'quantity': 100}}, 'GOOGL': {'data': {'name': 'GOOGL', 'price': 996.18, 'quantity': 98}}}
+[Cache HIT] GOOGL
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+Cache - {'SAP': {'data': {'name': 'SAP', 'price': 170.55, 'quantity': 100}}, 'META': {'data': {'name': 'META', 'price': 113.46, 'quantity': 100}}, 'NVDA': {'data': {'name': 'NVDA', 'price': 714.65, 'quantity': 100}}, 'IBM': {'data': {'name': 'IBM', 'price': 273.87, 'quantity': 100}}, 'AMD': {'data': {'name': 'AMD', 'price': 904.61, 'quantity': 100}}, 'NFLX': {'data': {'name': 'NFLX', 'price': 53.94, 'quantity': 100}}, 'UBER': {'data': {'name': 'UBER', 'price': 67.23, 'quantity': 100}}, 'AAPL': {'data': {'name': 'AAPL', 'price': 100.13, 'quantity': 79}}, 'AMZN': {'data': {'name': 'AMZN', 'price': 588.96, 'quantity': 100}}, 'GOOGL': {'data': {'name': 'GOOGL', 'price': 996.18, 'quantity': 98}}}
+[Cache HIT] AMZN
+Leader election started
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Leader election started
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Elected Leader - 3
+Elected Leader - 3
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+Cache - {'SAP': {'data': {'name': 'SAP', 'price': 170.55, 'quantity': 100}}, 'META': {'data': {'name': 'META', 'price': 113.46, 'quantity': 100}}, 'NVDA': {'data': {'name': 'NVDA', 'price': 714.65, 'quantity': 100}}, 'IBM': {'data': {'name': 'IBM', 'price': 273.87, 'quantity': 100}}, 'AMD': {'data': {'name': 'AMD', 'price': 904.61, 'quantity': 100}}, 'NFLX': {'data': {'name': 'NFLX', 'price': 53.94, 'quantity': 100}}, 'UBER': {'data': {'name': 'UBER', 'price': 67.23, 'quantity': 100}}, 'AAPL': {'data': {'name': 'AAPL', 'price': 100.13, 'quantity': 79}}, 'GOOGL': {'data': {'name': 'GOOGL', 'price': 996.18, 'quantity': 98}}, 'AMZN': {'data': {'name': 'AMZN', 'price': 588.96, 'quantity': 100}}}
+[Cache HIT] AMZN
+Cache - {'SAP': {'data': {'name': 'SAP', 'price': 170.55, 'quantity': 100}}, 'META': {'data': {'name': 'META', 'price': 113.46, 'quantity': 100}}, 'NVDA': {'data': {'name': 'NVDA', 'price': 714.65, 'quantity': 100}}, 'IBM': {'data': {'name': 'IBM', 'price': 273.87, 'quantity': 100}}, 'AMD': {'data': {'name': 'AMD', 'price': 904.61, 'quantity': 100}}, 'NFLX': {'data': {'name': 'NFLX', 'price': 53.94, 'quantity': 100}}, 'UBER': {'data': {'name': 'UBER', 'price': 67.23, 'quantity': 100}}, 'AAPL': {'data': {'name': 'AAPL', 'price': 100.13, 'quantity': 79}}, 'GOOGL': {'data': {'name': 'GOOGL', 'price': 996.18, 'quantity': 98}}, 'AMZN': {'data': {'name': 'AMZN', 'price': 588.96, 'quantity': 100}}}
+Invalidating Cache...
+[Cache INVALIDATE] Removed GOOGL
+Cache - {'SAP': {'data': {'name': 'SAP', 'price': 170.55, 'quantity': 100}}, 'META': {'data': {'name': 'META', 'price': 113.46, 'quantity': 100}}, 'NVDA': {'data': {'name': 'NVDA', 'price': 714.65, 'quantity': 100}}, 'IBM': {'data': {'name': 'IBM', 'price': 273.87, 'quantity': 100}}, 'AMD': {'data': {'name': 'AMD', 'price': 904.61, 'quantity': 100}}, 'NFLX': {'data': {'name': 'NFLX', 'price': 53.94, 'quantity': 100}}, 'UBER': {'data': {'name': 'UBER', 'price': 67.23, 'quantity': 100}}, 'AAPL': {'data': {'name': 'AAPL', 'price': 100.13, 'quantity': 79}}, 'AMZN': {'data': {'name': 'AMZN', 'price': 588.96, 'quantity': 100}}}
+Leader election started
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Order service replica 1 updated
+Elected Leader - 3
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+Order service replica 2 updated
+Cache - {'SAP': {'data': {'name': 'SAP', 'price': 170.55, 'quantity': 100}}, 'META': {'data': {'name': 'META', 'price': 113.46, 'quantity': 100}}, 'NVDA': {'data': {'name': 'NVDA', 'price': 714.65, 'quantity': 100}}, 'IBM': {'data': {'name': 'IBM', 'price': 273.87, 'quantity': 100}}, 'AMD': {'data': {'name': 'AMD', 'price': 904.61, 'quantity': 100}}, 'NFLX': {'data': {'name': 'NFLX', 'price': 53.94, 'quantity': 100}}, 'UBER': {'data': {'name': 'UBER', 'price': 67.23, 'quantity': 100}}, 'AAPL': {'data': {'name': 'AAPL', 'price': 100.13, 'quantity': 79}}, 'AMZN': {'data': {'name': 'AMZN', 'price': 588.96, 'quantity': 100}}}127.0.0.1 - - [04/May/2025 23:18:06] "POST /orders HTTP/1.1" 200 -
+127.0.0.1 - - [04/May/2025 23:18:09] "GET /stocks/GOOGL HTTP/1.1" 200 -
+127.0.0.1 - - [04/May/2025 23:18:10] "GET /stocks/AMZN HTTP/1.1" 200 -
+127.0.0.1 - - [04/May/2025 23:18:14] "GET /stocks/STOCK0 HTTP/1.1" 404 -
+127.0.0.1 - - [04/May/2025 23:18:15] "GET /stocks/STOCK0 HTTP/1.1" 404 -
+127.0.0.1 - - [04/May/2025 23:18:16] "GET /stocks/STOCK0 HTTP/1.1" 200 -
+127.0.0.1 - - [04/May/2025 23:18:16] "GET /stocks/STOCK0 HTTP/1.1" 200 -
+
+Invalidating Cache...
+[Cache INVALIDATE] Removed AMZN
+Cache - {'SAP': {'data': {'name': 'SAP', 'price': 170.55, 'quantity': 100}}, 'META': {'data': {'name': 'META', 'price': 113.46, 'quantity': 100}}, 'NVDA': {'data': {'name': 'NVDA', 'price': 714.65, 'quantity': 100}}, 'IBM': {'data': {'name': 'IBM', 'price': 273.87, 'quantity': 100}}, 'AMD': {'data': {'name': 'AMD', 'price': 904.61, 'quantity': 100}}, 'NFLX': {'data': {'name': 'NFLX', 'price': 53.94, 'quantity': 100}}, 'UBER': {'data': {'name': 'UBER', 'price': 67.23, 'quantity': 100}}, 'AAPL': {'data': {'name': 'AAPL', 'price': 100.13, 'quantity': 79}}}
+Order service replica 1 updated
+Order service replica 2 updated
+Leader election started
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Elected Leader - 3
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+Cache - {'SAP': {'data': {'name': 'SAP', 'price': 170.55, 'quantity': 100}}, 'META': {'data': {'name': 'META', 'price': 113.46, 'quantity': 100}}, 'NVDA': {'data': {'name': 'NVDA', 'price': 714.65, 'quantity': 100}}, 'IBM': {'data': {'name': 'IBM', 'price': 273.87, 'quantity': 100}}, 'AMD': {'data': {'name': 'AMD', 'price': 904.61, 'quantity': 100}}, 'NFLX': {'data': {'name': 'NFLX', 'price': 53.94, 'quantity': 100}}, 'UBER': {'data': {'name': 'UBER', 'price': 67.23, 'quantity': 100}}, 'AAPL': {'data': {'name': 'AAPL', 'price': 100.13, 'quantity': 79}}}
+[Cache MISS] GOOGL
+Leader election started
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Elected Leader - 3
+Stock Details - {'data': {'name': 'GOOGL', 'price': 996.18, 'quantity': 97}}
+Cache - {'SAP': {'data': {'name': 'SAP', 'price': 170.55, 'quantity': 100}}, 'META': {'data': {'name': 'META', 'price': 113.46, 'quantity': 100}}, 'NVDA': {'data': {'name': 'NVDA', 'price': 714.65, 'quantity': 100}}, 'IBM': {'data': {'name': 'IBM', 'price': 273.87, 'quantity': 100}}, 'AMD': {'data': {'name': 'AMD', 'price': 904.61, 'quantity': 100}}, 'NFLX': {'data': {'name': 'NFLX', 'price': 53.94, 'quantity': 100}}, 'UBER': {'data': {'name': 'UBER', 'price': 67.23, 'quantity': 100}}, 'AAPL': {'data': {'name': 'AAPL', 'price': 100.13, 'quantity': 79}}, 'GOOGL': {'data': {'name': 'GOOGL', 'price': 996.18, 'quantity': 97}}}
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+Cache - {'SAP': {'data': {'name': 'SAP', 'price': 170.55, 'quantity': 100}}, 'META': {'data': {'name': 'META', 'price': 113.46, 'quantity': 100}}, 'NVDA': {'data': {'name': 'NVDA', 'price': 714.65, 'quantity': 100}}, 'IBM': {'data': {'name': 'IBM', 'price': 273.87, 'quantity': 100}}, 'AMD': {'data': {'name': 'AMD', 'price': 904.61, 'quantity': 100}}, 'NFLX': {'data': {'name': 'NFLX', 'price': 53.94, 'quantity': 100}}, 'UBER': {'data': {'name': 'UBER', 'price': 67.23, 'quantity': 100}}, 'AAPL': {'data': {'name': 'AAPL', 'price': 100.13, 'quantity': 79}}, 'GOOGL': {'data': {'name': 'GOOGL', 'price': 996.18, 'quantity': 97}}}
+[Cache MISS] AMZN
+Stock Details - {'data': {'name': 'AMZN', 'price': 588.96, 'quantity': 99}}
+Cache - {'SAP': {'data': {'name': 'SAP', 'price': 170.55, 'quantity': 100}}, 'META': {'data': {'name': 'META', 'price': 113.46, 'quantity': 100}}, 'NVDA': {'data': {'name': 'NVDA', 'price': 714.65, 'quantity': 100}}, 'IBM': {'data': {'name': 'IBM', 'price': 273.87, 'quantity': 100}}, 'AMD': {'data': {'name': 'AMD', 'price': 904.61, 'quantity': 100}}, 'NFLX': {'data': {'name': 'NFLX', 'price': 53.94, 'quantity': 100}}, 'UBER': {'data': {'name': 'UBER', 'price': 67.23, 'quantity': 100}}, 'AAPL': {'data': {'name': 'AAPL', 'price': 100.13, 'quantity': 79}}, 'GOOGL': {'data': {'name': 'GOOGL', 'price': 996.18, 'quantity': 97}}, 'AMZN': {'data': {'name': 'AMZN', 'price': 588.96, 'quantity': 99}}}
+Leader election started
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Elected Leader - 3
+Leader election started
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Elected Leader - 3
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+Cache - {'SAP': {'data': {'name': 'SAP', 'price': 170.55, 'quantity': 100}}, 'META': {'data': {'name': 'META', 'price': 113.46, 'quantity': 100}}, 'NVDA': {'data': {'name': 'NVDA', 'price': 714.65, 'quantity': 100}}, 'IBM': {'data': {'name': 'IBM', 'price': 273.87, 'quantity': 100}}, 'AMD': {'data': {'name': 'AMD', 'price': 904.61, 'quantity': 100}}, 'NFLX': {'data': {'name': 'NFLX', 'price': 53.94, 'quantity': 100}}, 'UBER': {'data': {'name': 'UBER', 'price': 67.23, 'quantity': 100}}, 'AAPL': {'data': {'name': 'AAPL', 'price': 100.13, 'quantity': 79}}, 'GOOGL': {'data': {'name': 'GOOGL', 'price': 996.18, 'quantity': 97}}, 'AMZN': {'data': {'name': 'AMZN', 'price': 588.96, 'quantity': 99}}}
+[Cache MISS] STOCK0
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+Cache - {'SAP': {'data': {'name': 'SAP', 'price': 170.55, 'quantity': 100}}, 'META': {'data': {'name': 'META', 'price': 113.46, 'quantity': 100}}, 'NVDA': {'data': {'name': 'NVDA', 'price': 714.65, 'quantity': 100}}, 'IBM': {'data': {'name': 'IBM', 'price': 273.87, 'quantity': 100}}, 'AMD': {'data': {'name': 'AMD', 'price': 904.61, 'quantity': 100}}, 'NFLX': {'data': {'name': 'NFLX', 'price': 53.94, 'quantity': 100}}, 'UBER': {'data': {'name': 'UBER', 'price': 67.23, 'quantity': 100}}, 'AAPL': {'data': {'name': 'AAPL', 'price': 100.13, 'quantity': 79}}, 'GOOGL': {'data': {'name': 'GOOGL', 'price': 996.18, 'quantity': 97}}, 'AMZN': {'data': {'name': 'AMZN', 'price': 588.96, 'quantity': 99}}}
+[Cache MISS] STOCK0
+Stock Details - None
+Cache - {'META': {'data': {'name': 'META', 'price': 113.46, 'quantity': 100}}, 'NVDA': {'data': {'name': 'NVDA', 'price': 714.65, 'quantity': 100}}, 'IBM': {'data': {'name': 'IBM', 'price': 273.87, 'quantity': 100}}, 'AMD': {'data': {'name': 'AMD', 'price': 904.61, 'quantity': 100}}, 'NFLX': {'data': {'name': 'NFLX', 'price': 53.94, 'quantity': 100}}, 'UBER': {'data': {'name': 'UBER', 'price': 67.23, 'quantity': 100}}, 'AAPL': {'data': {'name': 'AAPL', 'price': 100.13, 'quantity': 79}}, 'GOOGL': {'data': {'name': 'GOOGL', 'price': 996.18, 'quantity': 97}}, 'AMZN': {'data': {'name': 'AMZN', 'price': 588.96, 'quantity': 99}}, 'STOCK0': None}
+Stock Details - None
+[Cache UPDATE] Added STOCK0, Cache Keys: ['META', 'NVDA', 'IBM', 'AMD', 'NFLX', 'UBER', 'AAPL', 'GOOGL', 'AMZN', 'STOCK0']
+Cache - {'META': {'data': {'name': 'META', 'price': 113.46, 'quantity': 100}}, 'NVDA': {'data': {'name': 'NVDA', 'price': 714.65, 'quantity': 100}}, 'IBM': {'data': {'name': 'IBM', 'price': 273.87, 'quantity': 100}}, 'AMD': {'data': {'name': 'AMD', 'price': 904.61, 'quantity': 100}}, 'NFLX': {'data': {'name': 'NFLX', 'price': 53.94, 'quantity': 100}}, 'UBER': {'data': {'name': 'UBER', 'price': 67.23, 'quantity': 100}}, 'AAPL': {'data': {'name': 'AAPL', 'price': 100.13, 'quantity': 79}}, 'GOOGL': {'data': {'name': 'GOOGL', 'price': 996.18, 'quantity': 97}}, 'AMZN': {'data': {'name': 'AMZN', 'price': 588.96, 'quantity': 99}}, 'STOCK0': None}
+Leader election started
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Leader election started
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Elected Leader - 3
+Elected Leader - 3
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+Cache - {'META': {'data': {'name': 'META', 'price': 113.46, 'quantity': 100}}, 'NVDA': {'data': {'name': 'NVDA', 'price': 714.65, 'quantity': 100}}, 'IBM': {'data': {'name': 'IBM', 'price': 273.87, 'quantity': 100}}, 'AMD': {'data': {'name': 'AMD', 'price': 904.61, 'quantity': 100}}, 'NFLX': {'data': {'name': 'NFLX', 'price': 53.94, 'quantity': 100}}, 'UBER': {'data': {'name': 'UBER', 'price': 67.23, 'quantity': 100}}, 'AAPL': {'data': {'name': 'AAPL', 'price': 100.13, 'quantity': 79}}, 'GOOGL': {'data': {'name': 'GOOGL', 'price': 996.18, 'quantity': 97}}, 'AMZN': {'data': {'name': 'AMZN', 'price': 588.96, 'quantity': 99}}, 'STOCK0': None}127.0.0.1 - - [04/May/2025 23:18:20] "GET /stocks/STOCK1 HTTP/1.1" 404 -
+127.0.0.1 - - [04/May/2025 23:18:21] "GET /stocks/STOCK1 HTTP/1.1" 404 -
+127.0.0.1 - - [04/May/2025 23:18:23] "GET /stocks/STOCK1 HTTP/1.1" 200 -
+127.0.0.1 - - [04/May/2025 23:18:23] "GET /stocks/STOCK1 HTTP/1.1" 200 -
+127.0.0.1 - - [04/May/2025 23:18:28] "GET /stocks/STOCK2 HTTP/1.1" 404 -
+127.0.0.1 - - [04/May/2025 23:18:28] "GET /stocks/STOCK2 HTTP/1.1" 200 -
+127.0.0.1 - - [04/May/2025 23:18:32] "GET /stocks/STOCK2 HTTP/1.1" 404 -
+127.0.0.1 - - [04/May/2025 23:18:32] "GET /stocks/STOCK2 HTTP/1.1" 200 -
+127.0.0.1 - - [04/May/2025 23:18:38] "GET /stocks/STOCK3 HTTP/1.1" 404 -
+127.0.0.1 - - [04/May/2025 23:18:39] "GET /stocks/STOCK3 HTTP/1.1" 404 -
+127.0.0.1 - - [04/May/2025 23:18:42] "GET /stocks/STOCK3 HTTP/1.1" 200 -
+127.0.0.1 - - [04/May/2025 23:18:42] "GET /stocks/STOCK3 HTTP/1.1" 200 -
+
+[Cache MISS] STOCK1
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+Cache - {'META': {'data': {'name': 'META', 'price': 113.46, 'quantity': 100}}, 'NVDA': {'data': {'name': 'NVDA', 'price': 714.65, 'quantity': 100}}, 'IBM': {'data': {'name': 'IBM', 'price': 273.87, 'quantity': 100}}, 'AMD': {'data': {'name': 'AMD', 'price': 904.61, 'quantity': 100}}, 'NFLX': {'data': {'name': 'NFLX', 'price': 53.94, 'quantity': 100}}, 'UBER': {'data': {'name': 'UBER', 'price': 67.23, 'quantity': 100}}, 'AAPL': {'data': {'name': 'AAPL', 'price': 100.13, 'quantity': 79}}, 'GOOGL': {'data': {'name': 'GOOGL', 'price': 996.18, 'quantity': 97}}, 'AMZN': {'data': {'name': 'AMZN', 'price': 588.96, 'quantity': 99}}, 'STOCK0': None}
+[Cache MISS] STOCK1
+Stock Details - None
+Cache - {'NVDA': {'data': {'name': 'NVDA', 'price': 714.65, 'quantity': 100}}, 'IBM': {'data': {'name': 'IBM', 'price': 273.87, 'quantity': 100}}, 'AMD': {'data': {'name': 'AMD', 'price': 904.61, 'quantity': 100}}, 'NFLX': {'data': {'name': 'NFLX', 'price': 53.94, 'quantity': 100}}, 'UBER': {'data': {'name': 'UBER', 'price': 67.23, 'quantity': 100}}, 'AAPL': {'data': {'name': 'AAPL', 'price': 100.13, 'quantity': 79}}, 'GOOGL': {'data': {'name': 'GOOGL', 'price': 996.18, 'quantity': 97}}, 'AMZN': {'data': {'name': 'AMZN', 'price': 588.96, 'quantity': 99}}, 'STOCK0': None, 'STOCK1': None}
+Stock Details - None
+[Cache UPDATE] Added STOCK1, Cache Keys: ['NVDA', 'IBM', 'AMD', 'NFLX', 'UBER', 'AAPL', 'GOOGL', 'AMZN', 'STOCK0', 'STOCK1']
+Cache - {'NVDA': {'data': {'name': 'NVDA', 'price': 714.65, 'quantity': 100}}, 'IBM': {'data': {'name': 'IBM', 'price': 273.87, 'quantity': 100}}, 'AMD': {'data': {'name': 'AMD', 'price': 904.61, 'quantity': 100}}, 'NFLX': {'data': {'name': 'NFLX', 'price': 53.94, 'quantity': 100}}, 'UBER': {'data': {'name': 'UBER', 'price': 67.23, 'quantity': 100}}, 'AAPL': {'data': {'name': 'AAPL', 'price': 100.13, 'quantity': 79}}, 'GOOGL': {'data': {'name': 'GOOGL', 'price': 996.18, 'quantity': 97}}, 'AMZN': {'data': {'name': 'AMZN', 'price': 588.96, 'quantity': 99}}, 'STOCK0': None, 'STOCK1': None}
+Leader election started
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Elected Leader - 3
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+Cache - {'NVDA': {'data': {'name': 'NVDA', 'price': 714.65, 'quantity': 100}}, 'IBM': {'data': {'name': 'IBM', 'price': 273.87, 'quantity': 100}}, 'AMD': {'data': {'name': 'AMD', 'price': 904.61, 'quantity': 100}}, 'NFLX': {'data': {'name': 'NFLX', 'price': 53.94, 'quantity': 100}}, 'UBER': {'data': {'name': 'UBER', 'price': 67.23, 'quantity': 100}}, 'AAPL': {'data': {'name': 'AAPL', 'price': 100.13, 'quantity': 79}}, 'GOOGL': {'data': {'name': 'GOOGL', 'price': 996.18, 'quantity': 97}}, 'AMZN': {'data': {'name': 'AMZN', 'price': 588.96, 'quantity': 99}}, 'STOCK0': None, 'STOCK1': None}
+[Cache MISS] STOCK2
+Leader election started
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Stock Details - None
+Cache - {'IBM': {'data': {'name': 'IBM', 'price': 273.87, 'quantity': 100}}, 'AMD': {'data': {'name': 'AMD', 'price': 904.61, 'quantity': 100}}, 'NFLX': {'data': {'name': 'NFLX', 'price': 53.94, 'quantity': 100}}, 'UBER': {'data': {'name': 'UBER', 'price': 67.23, 'quantity': 100}}, 'AAPL': {'data': {'name': 'AAPL', 'price': 100.13, 'quantity': 79}}, 'GOOGL': {'data': {'name': 'GOOGL', 'price': 996.18, 'quantity': 97}}, 'AMZN': {'data': {'name': 'AMZN', 'price': 588.96, 'quantity': 99}}, 'STOCK0': None, 'STOCK1': None, 'STOCK2': None}
+Elected Leader - 3
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+Cache - {'IBM': {'data': {'name': 'IBM', 'price': 273.87, 'quantity': 100}}, 'AMD': {'data': {'name': 'AMD', 'price': 904.61, 'quantity': 100}}, 'NFLX': {'data': {'name': 'NFLX', 'price': 53.94, 'quantity': 100}}, 'UBER': {'data': {'name': 'UBER', 'price': 67.23, 'quantity': 100}}, 'AAPL': {'data': {'name': 'AAPL', 'price': 100.13, 'quantity': 79}}, 'GOOGL': {'data': {'name': 'GOOGL', 'price': 996.18, 'quantity': 97}}, 'AMZN': {'data': {'name': 'AMZN', 'price': 588.96, 'quantity': 99}}, 'STOCK0': None, 'STOCK1': None, 'STOCK2': None}
+[Cache HIT] STOCK2
+Leader election started
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Stock Details - None
+[Cache UPDATE] Added STOCK2, Cache Keys: ['IBM', 'AMD', 'NFLX', 'UBER', 'AAPL', 'GOOGL', 'AMZN', 'STOCK0', 'STOCK1', 'STOCK2']
+Cache - {'IBM': {'data': {'name': 'IBM', 'price': 273.87, 'quantity': 100}}, 'AMD': {'data': {'name': 'AMD', 'price': 904.61, 'quantity': 100}}, 'NFLX': {'data': {'name': 'NFLX', 'price': 53.94, 'quantity': 100}}, 'UBER': {'data': {'name': 'UBER', 'price': 67.23, 'quantity': 100}}, 'AAPL': {'data': {'name': 'AAPL', 'price': 100.13, 'quantity': 79}}, 'GOOGL': {'data': {'name': 'GOOGL', 'price': 996.18, 'quantity': 97}}, 'AMZN': {'data': {'name': 'AMZN', 'price': 588.96, 'quantity': 99}}, 'STOCK0': None, 'STOCK1': None, 'STOCK2': None}
+Elected Leader - 3
+Leader election started
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Elected Leader - 3
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+Cache - {'IBM': {'data': {'name': 'IBM', 'price': 273.87, 'quantity': 100}}, 'AMD': {'data': {'name': 'AMD', 'price': 904.61, 'quantity': 100}}, 'NFLX': {'data': {'name': 'NFLX', 'price': 53.94, 'quantity': 100}}, 'UBER': {'data': {'name': 'UBER', 'price': 67.23, 'quantity': 100}}, 'AAPL': {'data': {'name': 'AAPL', 'price': 100.13, 'quantity': 79}}, 'GOOGL': {'data': {'name': 'GOOGL', 'price': 996.18, 'quantity': 97}}, 'AMZN': {'data': {'name': 'AMZN', 'price': 588.96, 'quantity': 99}}, 'STOCK0': None, 'STOCK1': None, 'STOCK2': None}
+[Cache MISS] STOCK3
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+Cache - {'IBM': {'data': {'name': 'IBM', 'price': 273.87, 'quantity': 100}}, 'AMD': {'data': {'name': 'AMD', 'price': 904.61, 'quantity': 100}}, 'NFLX': {'data': {'name': 'NFLX', 'price': 53.94, 'quantity': 100}}, 'UBER': {'data': {'name': 'UBER', 'price': 67.23, 'quantity': 100}}, 'AAPL': {'data': {'name': 'AAPL', 'price': 100.13, 'quantity': 79}}, 'GOOGL': {'data': {'name': 'GOOGL', 'price': 996.18, 'quantity': 97}}, 'AMZN': {'data': {'name': 'AMZN', 'price': 588.96, 'quantity': 99}}, 'STOCK0': None, 'STOCK1': None, 'STOCK2': None}
+[Cache MISS] STOCK3
+Stock Details - None
+Cache - {'AMD': {'data': {'name': 'AMD', 'price': 904.61, 'quantity': 100}}, 'NFLX': {'data': {'name': 'NFLX', 'price': 53.94, 'quantity': 100}}, 'UBER': {'data': {'name': 'UBER', 'price': 67.23, 'quantity': 100}}, 'AAPL': {'data': {'name': 'AAPL', 'price': 100.13, 'quantity': 79}}, 'GOOGL': {'data': {'name': 'GOOGL', 'price': 996.18, 'quantity': 97}}, 'AMZN': {'data': {'name': 'AMZN', 'price': 588.96, 'quantity': 99}}, 'STOCK0': None, 'STOCK1': None, 'STOCK2': None, 'STOCK3': None}
+Stock Details - None
+[Cache UPDATE] Added STOCK3, Cache Keys: ['AMD', 'NFLX', 'UBER', 'AAPL', 'GOOGL', 'AMZN', 'STOCK0', 'STOCK1', 'STOCK2', 'STOCK3']
+Cache - {'AMD': {'data': {'name': 'AMD', 'price': 904.61, 'quantity': 100}}, 'NFLX': {'data': {'name': 'NFLX', 'price': 53.94, 'quantity': 100}}, 'UBER': {'data': {'name': 'UBER', 'price': 67.23, 'quantity': 100}}, 'AAPL': {'data': {'name': 'AAPL', 'price': 100.13, 'quantity': 79}}, 'GOOGL': {'data': {'name': 'GOOGL', 'price': 996.18, 'quantity': 97}}, 'AMZN': {'data': {'name': 'AMZN', 'price': 588.96, 'quantity': 99}}, 'STOCK0': None, 'STOCK1': None, 'STOCK2': None, 'STOCK3': None}
+Leader election started
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}127.0.0.1 - - [04/May/2025 23:18:50] "GET /stocks/STOCK4 HTTP/1.1" 404 -
+127.0.0.1 - - [04/May/2025 23:18:50] "GET /stocks/STOCK4 HTTP/1.1" 404 -
+127.0.0.1 - - [04/May/2025 23:18:50] "GET /stocks/STOCK4 HTTP/1.1" 200 -
+127.0.0.1 - - [04/May/2025 23:18:51] "GET /stocks/STOCK4 HTTP/1.1" 200 -
+127.0.0.1 - - [04/May/2025 23:18:57] "GET /stocks/STOCK5 HTTP/1.1" 404 -
+127.0.0.1 - - [04/May/2025 23:18:58] "GET /stocks/STOCK5 HTTP/1.1" 404 -
+127.0.0.1 - - [04/May/2025 23:18:58] "GET /stocks/STOCK5 HTTP/1.1" 200 -
+127.0.0.1 - - [04/May/2025 23:18:58] "GET /stocks/STOCK5 HTTP/1.1" 200 -
+127.0.0.1 - - [04/May/2025 23:19:04] "GET /stocks/STOCK6 HTTP/1.1" 404 -
+127.0.0.1 - - [04/May/2025 23:19:05] "GET /stocks/STOCK6 HTTP/1.1" 404 -
+127.0.0.1 - - [04/May/2025 23:19:06] "GET /stocks/STOCK6 HTTP/1.1" 200 -
+127.0.0.1 - - [04/May/2025 23:19:07] "GET /stocks/STOCK6 HTTP/1.1" 200 -
+127.0.0.1 - - [04/May/2025 23:19:11] "GET /stocks/STOCK7 HTTP/1.1" 404 -
+
+Leader election started
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Elected Leader - 3
+Elected Leader - 3
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+Cache - {'AMD': {'data': {'name': 'AMD', 'price': 904.61, 'quantity': 100}}, 'NFLX': {'data': {'name': 'NFLX', 'price': 53.94, 'quantity': 100}}, 'UBER': {'data': {'name': 'UBER', 'price': 67.23, 'quantity': 100}}, 'AAPL': {'data': {'name': 'AAPL', 'price': 100.13, 'quantity': 79}}, 'GOOGL': {'data': {'name': 'GOOGL', 'price': 996.18, 'quantity': 97}}, 'AMZN': {'data': {'name': 'AMZN', 'price': 588.96, 'quantity': 99}}, 'STOCK0': None, 'STOCK1': None, 'STOCK2': None, 'STOCK3': None}
+[Cache MISS] STOCK4
+Cache - {'AMD': {'data': {'name': 'AMD', 'price': 904.61, 'quantity': 100}}, 'NFLX': {'data': {'name': 'NFLX', 'price': 53.94, 'quantity': 100}}, 'UBER': {'data': {'name': 'UBER', 'price': 67.23, 'quantity': 100}}, 'AAPL': {'data': {'name': 'AAPL', 'price': 100.13, 'quantity': 79}}, 'GOOGL': {'data': {'name': 'GOOGL', 'price': 996.18, 'quantity': 97}}, 'AMZN': {'data': {'name': 'AMZN', 'price': 588.96, 'quantity': 99}}, 'STOCK0': None, 'STOCK1': None, 'STOCK2': None, 'STOCK3': None}
+[Cache MISS] STOCK4
+Stock Details - None
+Cache - {'NFLX': {'data': {'name': 'NFLX', 'price': 53.94, 'quantity': 100}}, 'UBER': {'data': {'name': 'UBER', 'price': 67.23, 'quantity': 100}}, 'AAPL': {'data': {'name': 'AAPL', 'price': 100.13, 'quantity': 79}}, 'GOOGL': {'data': {'name': 'GOOGL', 'price': 996.18, 'quantity': 97}}, 'AMZN': {'data': {'name': 'AMZN', 'price': 588.96, 'quantity': 99}}, 'STOCK0': None, 'STOCK1': None, 'STOCK2': None, 'STOCK3': None, 'STOCK4': None}
+Stock Details - None
+[Cache UPDATE] Added STOCK4, Cache Keys: ['NFLX', 'UBER', 'AAPL', 'GOOGL', 'AMZN', 'STOCK0', 'STOCK1', 'STOCK2', 'STOCK3', 'STOCK4']
+Cache - {'NFLX': {'data': {'name': 'NFLX', 'price': 53.94, 'quantity': 100}}, 'UBER': {'data': {'name': 'UBER', 'price': 67.23, 'quantity': 100}}, 'AAPL': {'data': {'name': 'AAPL', 'price': 100.13, 'quantity': 79}}, 'GOOGL': {'data': {'name': 'GOOGL', 'price': 996.18, 'quantity': 97}}, 'AMZN': {'data': {'name': 'AMZN', 'price': 588.96, 'quantity': 99}}, 'STOCK0': None, 'STOCK1': None, 'STOCK2': None, 'STOCK3': None, 'STOCK4': None}
+Leader election started
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Elected Leader - 3
+Leader election started
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Elected Leader - 3
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+Cache - {'NFLX': {'data': {'name': 'NFLX', 'price': 53.94, 'quantity': 100}}, 'UBER': {'data': {'name': 'UBER', 'price': 67.23, 'quantity': 100}}, 'AAPL': {'data': {'name': 'AAPL', 'price': 100.13, 'quantity': 79}}, 'GOOGL': {'data': {'name': 'GOOGL', 'price': 996.18, 'quantity': 97}}, 'AMZN': {'data': {'name': 'AMZN', 'price': 588.96, 'quantity': 99}}, 'STOCK0': None, 'STOCK1': None, 'STOCK2': None, 'STOCK3': None, 'STOCK4': None}
+[Cache MISS] STOCK5
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+Cache - {'NFLX': {'data': {'name': 'NFLX', 'price': 53.94, 'quantity': 100}}, 'UBER': {'data': {'name': 'UBER', 'price': 67.23, 'quantity': 100}}, 'AAPL': {'data': {'name': 'AAPL', 'price': 100.13, 'quantity': 79}}, 'GOOGL': {'data': {'name': 'GOOGL', 'price': 996.18, 'quantity': 97}}, 'AMZN': {'data': {'name': 'AMZN', 'price': 588.96, 'quantity': 99}}, 'STOCK0': None, 'STOCK1': None, 'STOCK2': None, 'STOCK3': None, 'STOCK4': None}
+[Cache MISS] STOCK5
+Stock Details - None
+Cache - {'UBER': {'data': {'name': 'UBER', 'price': 67.23, 'quantity': 100}}, 'AAPL': {'data': {'name': 'AAPL', 'price': 100.13, 'quantity': 79}}, 'GOOGL': {'data': {'name': 'GOOGL', 'price': 996.18, 'quantity': 97}}, 'AMZN': {'data': {'name': 'AMZN', 'price': 588.96, 'quantity': 99}}, 'STOCK0': None, 'STOCK1': None, 'STOCK2': None, 'STOCK3': None, 'STOCK4': None, 'STOCK5': None}
+Stock Details - None
+[Cache UPDATE] Added STOCK5, Cache Keys: ['UBER', 'AAPL', 'GOOGL', 'AMZN', 'STOCK0', 'STOCK1', 'STOCK2', 'STOCK3', 'STOCK4', 'STOCK5']
+Cache - {'UBER': {'data': {'name': 'UBER', 'price': 67.23, 'quantity': 100}}, 'AAPL': {'data': {'name': 'AAPL', 'price': 100.13, 'quantity': 79}}, 'GOOGL': {'data': {'name': 'GOOGL', 'price': 996.18, 'quantity': 97}}, 'AMZN': {'data': {'name': 'AMZN', 'price': 588.96, 'quantity': 99}}, 'STOCK0': None, 'STOCK1': None, 'STOCK2': None, 'STOCK3': None, 'STOCK4': None, 'STOCK5': None}
+Leader election started
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Elected Leader - 3
+Leader election started
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+Elected Leader - 3
+Cache - {'UBER': {'data': {'name': 'UBER', 'price': 67.23, 'quantity': 100}}, 'AAPL': {'data': {'name': 'AAPL', 'price': 100.13, 'quantity': 79}}, 'GOOGL': {'data': {'name': 'GOOGL', 'price': 996.18, 'quantity': 97}}, 'AMZN': {'data': {'name': 'AMZN', 'price': 588.96, 'quantity': 99}}, 'STOCK0': None, 'STOCK1': None, 'STOCK2': None, 'STOCK3': None, 'STOCK4': None, 'STOCK5': None}
+[Cache MISS] STOCK6
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+Cache - {'UBER': {'data': {'name': 'UBER', 'price': 67.23, 'quantity': 100}}, 'AAPL': {'data': {'name': 'AAPL', 'price': 100.13, 'quantity': 79}}, 'GOOGL': {'data': {'name': 'GOOGL', 'price': 996.18, 'quantity': 97}}, 'AMZN': {'data': {'name': 'AMZN', 'price': 588.96, 'quantity': 99}}, 'STOCK0': None, 'STOCK1': None, 'STOCK2': None, 'STOCK3': None, 'STOCK4': None, 'STOCK5': None}
+[Cache MISS] STOCK6
+Stock Details - None
+Cache - {'AAPL': {'data': {'name': 'AAPL', 'price': 100.13, 'quantity': 79}}, 'GOOGL': {'data': {'name': 'GOOGL', 'price': 996.18, 'quantity': 97}}, 'AMZN': {'data': {'name': 'AMZN', 'price': 588.96, 'quantity': 99}}, 'STOCK0': None, 'STOCK1': None, 'STOCK2': None, 'STOCK3': None, 'STOCK4': None, 'STOCK5': None, 'STOCK6': None}
+Stock Details - None
+[Cache UPDATE] Added STOCK6, Cache Keys: ['AAPL', 'GOOGL', 'AMZN', 'STOCK0', 'STOCK1', 'STOCK2', 'STOCK3', 'STOCK4', 'STOCK5', 'STOCK6']
+Cache - {'AAPL': {'data': {'name': 'AAPL', 'price': 100.13, 'quantity': 79}}, 'GOOGL': {'data': {'name': 'GOOGL', 'price': 996.18, 'quantity': 97}}, 'AMZN': {'data': {'name': 'AMZN', 'price': 588.96, 'quantity': 99}}, 'STOCK0': None, 'STOCK1': None, 'STOCK2': None, 'STOCK3': None, 'STOCK4': None, 'STOCK5': None, 'STOCK6': None}
+Leader election started
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Elected Leader - 3
+Leader election started
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+Cache - {'AAPL': {'data': {'name': 'AAPL', 'price': 100.13, 'quantity': 79}}, 'GOOGL': {'data': {'name': 'GOOGL', 'price': 996.18, 'quantity': 97}}, 'AMZN': {'data': {'name': 'AMZN', 'price': 588.96, 'quantity': 99}}, 'STOCK0': None, 'STOCK1': None, 'STOCK2': None, 'STOCK3': None, 'STOCK4': None, 'STOCK5': None, 'STOCK6': None}
+[Cache MISS] STOCK7
+Elected Leader - 3
+Stock Details - None
+Cache - {'GOOGL': {'data': {'name': 'GOOGL', 'price': 996.18, 'quantity': 97}}, 'AMZN': {'data': {'name': 'AMZN', 'price': 588.96, 'quantity': 99}}, 'STOCK0': None, 'STOCK1': None, 'STOCK2': None, 'STOCK3': None, 'STOCK4': None, 'STOCK5': None, 'STOCK6': None, 'STOCK7': None}127.0.0.1 - - [04/May/2025 23:19:13] "GET /stocks/STOCK7 HTTP/1.1" 200 -
+127.0.0.1 - - [04/May/2025 23:19:16] "GET /stocks/STOCK7 HTTP/1.1" 404 -
+127.0.0.1 - - [04/May/2025 23:19:19] "GET /stocks/STOCK7 HTTP/1.1" 200 -
+127.0.0.1 - - [04/May/2025 23:19:22] "GET /stocks/STOCK8 HTTP/1.1" 404 -
+127.0.0.1 - - [04/May/2025 23:19:23] "GET /stocks/STOCK8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/May/2025 23:19:24] "GET /stocks/STOCK8 HTTP/1.1" 404 -
+127.0.0.1 - - [04/May/2025 23:19:24] "GET /stocks/STOCK8 HTTP/1.1" 200 -
+127.0.0.1 - - [04/May/2025 23:19:32] "GET /stocks/STOCK9 HTTP/1.1" 404 -
+127.0.0.1 - - [04/May/2025 23:19:35] "GET /stocks/STOCK9 HTTP/1.1" 404 -
+127.0.0.1 - - [04/May/2025 23:19:35] "GET /stocks/STOCK9 HTTP/1.1" 200 -
+127.0.0.1 - - [04/May/2025 23:19:36] "GET /stocks/STOCK9 HTTP/1.1" 200 -
+127.0.0.1 - - [04/May/2025 23:19:44] "GET /stocks/STOCK10 HTTP/1.1" 404 -
+127.0.0.1 - - [04/May/2025 23:19:44] "GET /stocks/STOCK10 HTTP/1.1" 200 -
+127.0.0.1 - - [04/May/2025 23:19:47] "GET /stocks/STOCK10 HTTP/1.1" 404 -
+127.0.0.1 - - [04/May/2025 23:19:49] "GET /stocks/STOCK10 HTTP/1.1" 200 -
+127.0.0.1 - - [04/May/2025 23:19:53] "GET /stocks/STOCK11 HTTP/1.1" 404 -
+127.0.0.1 - - [04/May/2025 23:19:53] "GET /stocks/STOCK11 HTTP/1.1" 200 -
+127.0.0.1 - - [04/May/2025 23:20:02] "GET /stocks/STOCK0 HTTP/1.1" 404 -
+127.0.0.1 - - [04/May/2025 23:20:02] "GET /stocks/STOCK11 HTTP/1.1" 404 -
+127.0.0.1 - - [04/May/2025 23:20:03] "GET /stocks/STOCK11 HTTP/1.1" 200 -
+127.0.0.1 - - [04/May/2025 23:20:03] "GET /stocks/STOCK0 HTTP/1.1" 200 -
+
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+Cache - {'GOOGL': {'data': {'name': 'GOOGL', 'price': 996.18, 'quantity': 97}}, 'AMZN': {'data': {'name': 'AMZN', 'price': 588.96, 'quantity': 99}}, 'STOCK0': None, 'STOCK1': None, 'STOCK2': None, 'STOCK3': None, 'STOCK4': None, 'STOCK5': None, 'STOCK6': None, 'STOCK7': None}
+[Cache HIT] STOCK7
+Leader election started
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Elected Leader - 3
+Stock Details - None
+[Cache UPDATE] Added STOCK7, Cache Keys: ['GOOGL', 'AMZN', 'STOCK0', 'STOCK1', 'STOCK2', 'STOCK3', 'STOCK4', 'STOCK5', 'STOCK6', 'STOCK7']
+Cache - {'GOOGL': {'data': {'name': 'GOOGL', 'price': 996.18, 'quantity': 97}}, 'AMZN': {'data': {'name': 'AMZN', 'price': 588.96, 'quantity': 99}}, 'STOCK0': None, 'STOCK1': None, 'STOCK2': None, 'STOCK3': None, 'STOCK4': None, 'STOCK5': None, 'STOCK6': None, 'STOCK7': None}
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+Leader election started
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Cache - {'GOOGL': {'data': {'name': 'GOOGL', 'price': 996.18, 'quantity': 97}}, 'AMZN': {'data': {'name': 'AMZN', 'price': 588.96, 'quantity': 99}}, 'STOCK0': None, 'STOCK1': None, 'STOCK2': None, 'STOCK3': None, 'STOCK4': None, 'STOCK5': None, 'STOCK6': None, 'STOCK7': None}
+[Cache MISS] STOCK8
+Elected Leader - 3
+Stock Details - None
+Cache - {'AMZN': {'data': {'name': 'AMZN', 'price': 588.96, 'quantity': 99}}, 'STOCK0': None, 'STOCK1': None, 'STOCK2': None, 'STOCK3': None, 'STOCK4': None, 'STOCK5': None, 'STOCK6': None, 'STOCK7': None, 'STOCK8': None}
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+Cache - {'AMZN': {'data': {'name': 'AMZN', 'price': 588.96, 'quantity': 99}}, 'STOCK0': None, 'STOCK1': None, 'STOCK2': None, 'STOCK3': None, 'STOCK4': None, 'STOCK5': None, 'STOCK6': None, 'STOCK7': None, 'STOCK8': None}
+[Cache HIT] STOCK8
+Stock Details - None
+[Cache UPDATE] Added STOCK8, Cache Keys: ['AMZN', 'STOCK0', 'STOCK1', 'STOCK2', 'STOCK3', 'STOCK4', 'STOCK5', 'STOCK6', 'STOCK7', 'STOCK8']
+Cache - {'AMZN': {'data': {'name': 'AMZN', 'price': 588.96, 'quantity': 99}}, 'STOCK0': None, 'STOCK1': None, 'STOCK2': None, 'STOCK3': None, 'STOCK4': None, 'STOCK5': None, 'STOCK6': None, 'STOCK7': None, 'STOCK8': None}
+Leader election started
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Elected Leader - 3
+Leader election started
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+Cache - {'AMZN': {'data': {'name': 'AMZN', 'price': 588.96, 'quantity': 99}}, 'STOCK0': None, 'STOCK1': None, 'STOCK2': None, 'STOCK3': None, 'STOCK4': None, 'STOCK5': None, 'STOCK6': None, 'STOCK7': None, 'STOCK8': None}
+[Cache MISS] STOCK9
+Elected Leader - 3
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+Cache - {'AMZN': {'data': {'name': 'AMZN', 'price': 588.96, 'quantity': 99}}, 'STOCK0': None, 'STOCK1': None, 'STOCK2': None, 'STOCK3': None, 'STOCK4': None, 'STOCK5': None, 'STOCK6': None, 'STOCK7': None, 'STOCK8': None}
+[Cache MISS] STOCK9
+Stock Details - None
+Cache - {'STOCK0': None, 'STOCK1': None, 'STOCK2': None, 'STOCK3': None, 'STOCK4': None, 'STOCK5': None, 'STOCK6': None, 'STOCK7': None, 'STOCK8': None, 'STOCK9': None}
+Stock Details - None
+[Cache UPDATE] Added STOCK9, Cache Keys: ['STOCK0', 'STOCK1', 'STOCK2', 'STOCK3', 'STOCK4', 'STOCK5', 'STOCK6', 'STOCK7', 'STOCK8', 'STOCK9']
+Cache - {'STOCK0': None, 'STOCK1': None, 'STOCK2': None, 'STOCK3': None, 'STOCK4': None, 'STOCK5': None, 'STOCK6': None, 'STOCK7': None, 'STOCK8': None, 'STOCK9': None}
+Leader election started
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Leader election started
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Elected Leader - 3
+Elected Leader - 3
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+Cache - {'STOCK0': None, 'STOCK1': None, 'STOCK2': None, 'STOCK3': None, 'STOCK4': None, 'STOCK5': None, 'STOCK6': None, 'STOCK7': None, 'STOCK8': None, 'STOCK9': None}
+[Cache MISS] STOCK10
+Stock Details - None
+Cache - {'STOCK1': None, 'STOCK2': None, 'STOCK3': None, 'STOCK4': None, 'STOCK5': None, 'STOCK6': None, 'STOCK7': None, 'STOCK8': None, 'STOCK9': None, 'STOCK10': None}
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+Cache - {'STOCK1': None, 'STOCK2': None, 'STOCK3': None, 'STOCK4': None, 'STOCK5': None, 'STOCK6': None, 'STOCK7': None, 'STOCK8': None, 'STOCK9': None, 'STOCK10': None}
+[Cache HIT] STOCK10
+Leader election started
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Stock Details - None
+[Cache UPDATE] Added STOCK10, Cache Keys: ['STOCK1', 'STOCK2', 'STOCK3', 'STOCK4', 'STOCK5', 'STOCK6', 'STOCK7', 'STOCK8', 'STOCK9', 'STOCK10']
+Cache - {'STOCK1': None, 'STOCK2': None, 'STOCK3': None, 'STOCK4': None, 'STOCK5': None, 'STOCK6': None, 'STOCK7': None, 'STOCK8': None, 'STOCK9': None, 'STOCK10': None}
+Elected Leader - 3
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+Cache - {'STOCK1': None, 'STOCK2': None, 'STOCK3': None, 'STOCK4': None, 'STOCK5': None, 'STOCK6': None, 'STOCK7': None, 'STOCK8': None, 'STOCK9': None, 'STOCK10': None}
+[Cache MISS] STOCK11
+Stock Details - None
+Cache - {'STOCK2': None, 'STOCK3': None, 'STOCK4': None, 'STOCK5': None, 'STOCK6': None, 'STOCK7': None, 'STOCK8': None, 'STOCK9': None, 'STOCK10': None, 'STOCK11': None}
+Leader election started
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Elected Leader - 3
+Leader election started
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Elected Leader - 3
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]
+Cache - {'STOCK2': None, 'STOCK3': None, 'STOCK4': None, 'STOCK5': None, 'STOCK6': None, 'STOCK7': None, 'STOCK8': None, 'STOCK9': None, 'STOCK10': None, 'STOCK11': None}
+[Cache MISS] STOCK0
+Cache - {'STOCK2': None, 'STOCK3': None, 'STOCK4': None, 'STOCK5': None, 'STOCK6': None, 'STOCK7': None, 'STOCK8': None, 'STOCK9': None, 'STOCK10': None, 'STOCK11': None}
+[Cache HIT] STOCK11
+Stock Details - None
+[Cache UPDATE] Added STOCK11, Cache Keys: ['STOCK2', 'STOCK3', 'STOCK4', 'STOCK5', 'STOCK6', 'STOCK7', 'STOCK8', 'STOCK9', 'STOCK10', 'STOCK11']
+Cache - {'STOCK2': None, 'STOCK3': None, 'STOCK4': None, 'STOCK5': None, 'STOCK6': None, 'STOCK7': None, 'STOCK8': None, 'STOCK9': None, 'STOCK10': None, 'STOCK11': None}
+Stock Details - None
+Cache - {'STOCK3': None, 'STOCK4': None, 'STOCK5': None, 'STOCK6': None, 'STOCK7': None, 'STOCK8': None, 'STOCK9': None, 'STOCK10': None, 'STOCK11': None, 'STOCK0': None}
+Leader election started
+{'replica_id': 3, 'address': 'localhost:50056', 'status': True}
+Elected Leader - 3
+[{'replica_id': 1, 'address': 'localhost:50054', 'status': True}, {'replica_id': 2, 'address': 'localhost:50055', 'status': True}, {'replica_id': 3, 'address': 'localhost:50056', 'status': True}]127.0.0.1 - - [04/May/2025 23:20:12] "GET /stocks/STOCK0 HTTP/1.1" 404 -
+127.0.0.1 - - [04/May/2025 23:20:15] "GET /stocks/STOCK0 HTTP/1.1" 200 -
