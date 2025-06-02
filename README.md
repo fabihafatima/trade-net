@@ -67,12 +67,6 @@ All services communicate over gRPC or REST and support concurrent requests.
 * Latency plotted with and without caching.
 * Crash recovery and **cache replacement behavior** (via LRU) tested and logged.
 
-### ⭐ Optional: Paxos Consensus (Extra Credit)
-
-* Paxos protocol ensures **write-order agreement** across replicas.
-* Implementation includes proposer, acceptor, and learner roles.
-* System remains live if any 1 of 3 replicas crashes.
-
 ---
 
 ## 🧪 How to Run
@@ -124,18 +118,8 @@ python3 client.py --p=0.6 --iterations=20
 
 ---
 
-## ✅ Submission Checklist
-
-* [x] Source code for all microservices
-* [x] Test scripts and outputs in `test/`
-* [x] Design, Output, and Evaluation docs in `docs/`
-* [x] Docker + AWS deployment configs
-
----
-
 ## 📚 References
 
-* [Paxos Made Simple (Lamport)](https://lamport.azurewebsites.net/pubs/paxos-simple.pdf)
 * [Flask Web Framework](https://flask.palletsprojects.com/en/2.2.x/)
 * [Model-View-Controller (MVC)](https://en.wikipedia.org/wiki/Model–view–controller)
 * [Asterix Universe](https://en.wikipedia.org/wiki/Asterix)
