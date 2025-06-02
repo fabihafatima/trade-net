@@ -1,5 +1,5 @@
 
-# 💹 Trade-Net Distributed Stock Exchange
+# Trade-Net Distributed Stock Exchange
 
 ## 💼 Project Overview
 
@@ -7,10 +7,10 @@ The Trade-Net Distributed Stock Exchange is a fault-tolerant, scalable trading p
 
 This project includes:
 
-* ⚡ Efficient stock lookups with **in-memory LRU caching**
-* 🔁 Consistent order processing using **leader-follower replication**
-* 💥 Crash resilience with **automatic failover and replica recovery**
-* ☁️ Seamless deployment on **AWS cloud infrastructure**
+* Efficient stock lookups with **in-memory LRU caching**
+* Consistent order processing using **leader-follower replication**
+* Crash resilience with **automatic failover and replica recovery**
+* Seamless deployment on **AWS cloud infrastructure** (refer [Evaluation.MD](docs/Evaluation.md) for deployment steps)
 ---
 
 ## 🧱 System Architecture
